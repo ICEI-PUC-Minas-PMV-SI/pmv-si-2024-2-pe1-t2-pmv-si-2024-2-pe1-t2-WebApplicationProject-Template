@@ -68,3 +68,13 @@ label {
 .form-check-label:hover {
   color: rgba(242, 169, 34, 1);
 }
+
+.container1 {
+  padding: 50px;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 500px;
+  /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); */
+}
