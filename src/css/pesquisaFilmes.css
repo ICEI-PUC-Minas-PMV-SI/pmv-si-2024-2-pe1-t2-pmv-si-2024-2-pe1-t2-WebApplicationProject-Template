@@ -1,0 +1,83 @@
+.filters-container {
+    display: flex;
+    justify-content:space-around;
+    max-width: 90%;
+    min-width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+  
+  .input-search{
+    width: 70%;
+  }
+  
+  .input-search::placeholder {
+    color: #838383;
+    opacity: 1; 
+  }
+  
+  .news-search {
+    display: flex;
+    justify-content:space-between;
+    max-width: 90%;
+    min-width: 90%;
+    margin: auto;
+  }
+  
+  .movies-description-search{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 5%;
+  }
+  
+  .card-search{
+      max-width:22%;
+      min-width: 22%;
+      height: 90%;
+      display: flex;
+      flex-direction: column;
+      background-color: #212529;
+      border-radius: 5px;
+      margin: 10px;
+  }
+  
+  .movie-image-search {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+  }
+  
+  .movie-image-search img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  
+  .input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-search {
+    padding-right: 30px;
+  }
+  
+  .emoji-search {
+    position: absolute;
+    right: 10px;
+    pointer-events: none;
+    font-size: 16px;
+  }
+
+  .movie-container-search {
+    display: flex;
+    justify-content:space-around;
+    max-width: 90%;
+    min-width: 90%;
+    height: 500px;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
