@@ -17,18 +17,18 @@ O professor Rommel Carneiro apresenta alguns exemplos prontos para serem utiliza
 > - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
 > - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
 
-## Exemplo
-
 ## Requisitos Atendidos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais que relacionam o escopo do projeto com os artefatos criados:
+As tabelas que se seguem apresentam os requisitos funcionais que relacionam o escopo do projeto com os artefatos criados:
 
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito | Responsável | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | João | index.html |
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês | Ana Paula | cadastro-noticia.html |
+|RF-001| O usuário deve ser capaz de encontrar ingressos para diversas sessões | Maria Luiza | menudefilmes.html |
+|RF-002| O usuário deve poder criar um perfil para uso da plataforma, com login e senha | Rodrigo | cadastro.html |
+|RF-007| A plataforma deve apresentar ao usuário a possibilidade de comprar lanches para consumo durante e após a sessão | Felipe Bonilha | snack-bar.html |
+
 
 ## Descrição das estruturas:
 
