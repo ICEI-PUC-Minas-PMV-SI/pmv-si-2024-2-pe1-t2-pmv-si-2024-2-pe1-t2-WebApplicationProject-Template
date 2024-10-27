@@ -25,7 +25,7 @@ As tabelas que se seguem apresentam os requisitos funcionais que relacionam o es
 
 |ID    | Descrição do Requisito | Responsável | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-001| O usuário deve ser capaz de encontrar ingressos para diversas sessões | Maria Luiza | menudefilmes.html |
+|RF-001| O usuário deve ser capaz de encontrar ingressos para diversas sessões | Maria Luiza e Grazielle| menudefilmes.html |
 |RF-002| O usuário deve poder criar um perfil para uso da plataforma, com login e senha | Rodrigo | cadastro.html |
 |RF-007| A plataforma deve apresentar ao usuário a possibilidade de comprar lanches para consumo durante e após a sessão | Felipe Bonilha | snack-bar.html |
 
