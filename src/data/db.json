@@ -1,24 +1,5 @@
 {
-    "items_in_cart": [
-      {
-        "id": "1",
-        "name": "Palmeiras x Corinthians"
-      },
-      {
-        "id": "2",
-        "name": "Fantasmas se Divertem"
-      },
-      {
-        "id": "3",
-        "name": "Terrifier 3"
-      },
-      {
-        "id": "4",
-        "name": "Divertidamente"
-      },
-      {
-        "id": "5",
-        "name": "Monstros S.A."
-      }
-    ]
-  }
+  "items_in_cart": [
+
+  ]
+}
