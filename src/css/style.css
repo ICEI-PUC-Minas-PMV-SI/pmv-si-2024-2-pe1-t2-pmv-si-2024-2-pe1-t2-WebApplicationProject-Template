@@ -5,6 +5,12 @@
   box-sizing: border-box;
 }
 
+h3 {
+  font-weight: 1000;
+  text-transform: uppercase;
+  line-height: 1.33;
+}
+
 button {
   top: 30px;
   border: none;
@@ -79,4 +85,20 @@ a {
 
 .search-nav-bar {
   font-size: 1.3em;
+}
+
+.cart-container {
+  border: 1px solid #939393;
+  padding-top: 30px;
+  padding-bottom: 200px;
+}
+
+.movie-container {
+  margin-bottom: 200px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  border: 1px solid #444444;
 }
