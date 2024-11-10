@@ -98,7 +98,7 @@ a {
   padding-top: 50px;
   padding-left: 50px;
   padding-right: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 450px;
   border: 1px solid #444444;
 }
 
@@ -110,4 +110,16 @@ a {
   padding-top: 20px;
   padding-bottom: 50px;
   border: 1px solid #444444;
+}
+
+#shopping-cart-title {
+  margin-bottom: 30px;
+}
+
+#cart-table {
+  border: solid 1px #444444;
+}
+
+#shopping-cart-total {
+  margin-top: 40px;
 }
