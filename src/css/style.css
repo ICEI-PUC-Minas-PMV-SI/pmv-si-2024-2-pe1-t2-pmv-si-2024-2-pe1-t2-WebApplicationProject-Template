@@ -11,6 +11,11 @@ h3 {
   line-height: 1.33;
 }
 
+h4 {
+  font-weight: 1000;
+  line-height: 1.33;
+}
+
 button {
   top: 30px;
   border: none;
@@ -88,17 +93,21 @@ a {
 }
 
 .cart-container {
-  border: 1px solid #939393;
   padding-top: 30px;
   padding-bottom: 200px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  border: 1px solid #444444;
 }
 
 .movie-container {
-  margin-bottom: 200px;
   margin-top: 50px;
+  margin-bottom: 200px;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 50px;
   padding-top: 20px;
+  padding-bottom: 50px;
   border: 1px solid #444444;
 }
