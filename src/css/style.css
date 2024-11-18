@@ -112,6 +112,15 @@ a {
   border: 1px solid #444444;
 }
 
+.movie-card {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 500px;
+}
+
 #shopping-cart-title {
   margin-bottom: 30px;
 }
