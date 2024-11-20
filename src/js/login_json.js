@@ -21,3 +21,4 @@ async function checkIfLoginExists(inputCredential) {
 
 // include functions on global scope of the window
 window.registerLoginCredential = registerLoginCredential;
+window.checkIfLoginExists = checkIfLoginExists;
