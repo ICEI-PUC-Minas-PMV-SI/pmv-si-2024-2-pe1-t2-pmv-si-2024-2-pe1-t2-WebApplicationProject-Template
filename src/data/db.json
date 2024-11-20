@@ -1,5 +1,12 @@
 {
   "items_in_cart": [
     
+  ],
+  "login_credentials": [
+    {
+      "id": "1",
+      "username": "testlogin",
+      "password": "test1234"
+    }
   ]
 }
