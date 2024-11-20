@@ -8,6 +8,7 @@ async function fetchAndDisplayCartItems() {
         cartItemsContainer.innerHTML = "";
 
         for (let i = 0; i < itemsInCart.length; i++) {
+            
             const item = itemsInCart[i]
             const row = document.createElement("tr");
 
