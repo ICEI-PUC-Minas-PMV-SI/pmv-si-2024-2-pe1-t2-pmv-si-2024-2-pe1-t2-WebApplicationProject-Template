@@ -78,3 +78,7 @@ label {
   max-width: 500px;
   /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); */
 }
+
+h2 {
+  color: rgba(242, 169, 34, 1);
+}
