@@ -1,4 +1,6 @@
 import axios from 'axios';
+import { log } from 'console';
+import { execPath } from 'process';
 
 async function registerLoginCredential() {
     
@@ -14,21 +16,32 @@ async function registerLoginCredential() {
         email
     };
 
-    await axios.post(`http://localhost:3000/login_credentials`, inputCredential);
+    try {
+        await axios.post(`http://localhost:3000/login_credentials`, inputCredential);
+        alert(`Olá ${login}! Registramos seus dados com sucesso!`);
+    } catch(err) {
+        alert("Não foi possível registrar sua conta. Tente novamente mais tarde.");
+    }
     document.getElementById('registerForm').reset();
 }
 
-async function checkIfLoginExists(inputCredential) {
-    const { data: credential_list } = await axios.get("http://localhost:3000/login_credentials");
+async function checkIfLoginExists() {
 
-    foundLogin = credential_list.find(credential => credential.username === inputCredential.username);
+    const login = document.getElementById("loginName").value;
+    const password = document.getElementById("loginPassword").value;
+
+    const inputCredential = {
+        login,
+        password
+    };
+
+    const { data: credential_list } = await axios.get("http://localhost:3000/login_credentials");
+    foundLogin = credential_list.find(credential => credential.login === inputCredential.login);
 
     if (foundLogin && foundLogin.password === inputCredential.password) {
-        // login successful
-        console.log("LOGIN SUCESSFULL!!!");
+        alert(`Olá ${login}! Você foi logado com sucesso!`);
     } else {
-        // login failed
-        console.log("Please check you login and password!");
+        alert("Usuário ou Senha Incorretos. Verifique os dados informados.");
     }
 
 }
