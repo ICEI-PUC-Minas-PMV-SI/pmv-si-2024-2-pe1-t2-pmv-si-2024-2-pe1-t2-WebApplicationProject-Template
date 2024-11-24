@@ -3,93 +3,128 @@
 <head>
     <title>Cadastro de Usuário</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
-    <style>
-        body {
-            background-color: black;
-            color: white;
-            font-family: Arial, sans-serif;
-        }
-
-        .container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-
-        .panel {
-            background-color: gray;
-            padding: 20px;
-            border-radius: 10px;
-            width: 300px; /* Ajuste conforme necessário */
-            text-align: center;
-        }
-
-            .panel img {
-                float: left;
-                margin-right: 10px;
-            }
-
-            .panel h1 {
-                margin-top: 0;
-            }
-
-            .panel table {
-                width: 100%;
-                margin-bottom: 20px;
-            }
-
-            .panel table, .panel th, .panel td {
-                border: none;
-                padding: 10px;
-            }
-
-            .panel input {
-                width: 100%;
-                padding: 8px;
-                margin: 5px 0;
-            }
-
-            .panel button {
-                background-color: black;
-                color: white;
-                padding: 10px 20px;
-                border: none;
-                border-radius: 5px;
-                cursor: pointer;
-            }
-    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
-<body>
-    <div class="container">
-        <div class="panel">
-            <img src="icon.png" alt="Icon" width="80" height="80">
-            <h1>CRIE SUA CONTA</h1>
-            <form id="frmCadastro">
-                <table>
-                    <tr>
-                        <td><label for="txtLogin">Login:</label></td>
-                        <td><input type="text" id="txtLogin"></td>
-                    </tr>
-                    <tr>
-                        <td><label for="txtSenha">Senha:</label></td>
-                        <td><input type="password" id="txtSenha"></td>
-                    </tr>
-                    <tr>
-                        <td><label for="txtNome">Nome:</label></td>
-                        <td><input type="text" id="txtNome"></td>
-                    </tr>
-                    <tr>
-                        <td><label for="txtEmail">Email:</label></td>
-                        <td><input type="email" id="txtEmail"></td>
-                    </tr>
-                </table>
-                <input type="submit" value="Salvar" id="btnSalvar" />
-            </form>
-            <table id="tblListar"></table>
-        </div>
+<body class="bg-dark text-light">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">TicketWave</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="busca-ingresso.html">Encontrar Um Filme</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="snack-bar.html">Snack Bar</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a href="shopping-cart.html" class="nav-link">Carrinho</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="login.html">Login</a>
+          </li>
+        </ul>
+      </div>
     </div>
+  </nav>
+      <div class="container1 d-flex justify-content-center align-items-center min-vh-100">
+    <div class="login-container bg-dark text-dark p-5 rounded">
+        <!-- Botôes encima -->
+        <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="tab-register" data-mdb-pill-init href="login.html" role="tab"
+            aria-controls="pills-login" aria-selected="true">Login</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link active" id="tab-login" data-mdb-pill-init href="cadastro.html" role="tab"
+            aria-controls="pills-register" aria-selected="false">Cadastre-se</a>
+        </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
+              <form>
+                <div class="text-center mb-3">
+                  <div data-mdb-input-init class="form-outline mb-4">
+                    <label class="form-label" for="txtLogin">Login:</label>
+                    <input type="text" id="txtLogin" class="form-control" />
+                  </div>
+                  <div data-mdb-input-init class="form-outline mb-4">
+                    <label class="form-label" for="txtSenha">Senha:</label>
+                    <input type="password" id="txtSenha" class="form-control" />
+                  </div>
+                  <div data-mdb-input-init class="form-outline mb-4">
+                    <label class="form-label" for="txtNome">Nome:</label>
+                    <input type="text" id="txtNome" class="form-control" />
+                  </div>
+                  <div data-mdb-input-init class="form-outline mb-4">
+                    <label class="form-label" for="txtEmail">Email:</label>
+                    <input type="email" id="txtEmail" class="form-control" />
+                  </div>
+                  <!-- abaixo do form -->
+                  <div class="row mb-5">
+                    <div class="col-md-6 d-flex justify-content-center">
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-center">
+                      <button type="submit" value="Salvar" id="btnSalvar"
+                        class="btn btn-primary btn-block mb-4">REGISTRAR</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer bg-dark text-light py-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h5>Sobre o TicketWave</h5>
+              <ul class="list-unstyled">
+                <li><a class="text-light" href="#">Sobre o TicketWave</a></li>
+                <li><a class="text-light" href="#">Acessibilidade</a></li>
+                <li><a class="text-light" href="#">História do TicketWave</a></li>
+                <li><a class="text-light" href="#">Fale Conosco</a></li>
+                <li><a class="text-light" href="#">Trabalhe Conosco</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h5>Nossas Redes:</h5>
+              <ul class="list-unstyled">
+                <li><a class="text-light" href="#">TikTok</a></li>
+                <li><a class="text-light" href="#">Instagram</a></li>
+                <li><a class="text-light" href="#">Facebook</a></li>
+                <li><a class="text-light" href="#">Pinterest</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h5>Filmes mais populares:</h5>
+              <ul class="list-unstyled">
+                <li><a class="text-light" href="#">Os Fantasmas Ainda se Divertem: Beetlejuice</a></li>
+                <li><a class="text-light" href="#">Passagrana</a></li>
+                <li><a class="text-light" href="#">Silvio</a></li>
+                <li><a class="text-light" href="#">Não Fale o Mal</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="text-center mt-4">
+            <p>&copy; 2024 TicketWave. Todos os direitos reservados.</p>
+          </div>
+        </div>
+      </footer>
     <script>
         $(document).ready(function () {
             console.log("DOM carregado e pronto.");
