@@ -56,7 +56,7 @@
         </ul>
         <div class="tab-content">
             <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
-              <form>
+              <form id="registerForm">
                 <div class="text-center mb-3">
                   <div data-mdb-input-init class="form-outline mb-4">
                     <label class="form-label" for="txtLogin">Login:</label>
@@ -79,8 +79,9 @@
                     <div class="col-md-6 d-flex justify-content-center">
                     </div>
                     <div class="col-md-6 d-flex justify-content-center">
-                      <button type="submit" value="Salvar" id="btnSalvar"
-                        class="btn btn-primary btn-block mb-4">REGISTRAR</button>
+                      <button type="button" id="btnSalvar" class="btn btn-primary btn-block mb-4" onclick="registerLoginCredential();">
+                        Registrar
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -125,57 +126,6 @@
           </div>
         </div>
       </footer>
-    <script>
-        $(document).ready(function () {
-            console.log("DOM carregado e pronto.");
-
-            var tbClientes = JSON.parse(localStorage.getItem("tbClientes")) || [];
-
-            function listarClientes() {
-                $("#tblListar").html("");
-                tbClientes.forEach(function (cli, index) {
-                    $("#tblListar").append(
-                        `<tr>
-                                    <td><img src='edit.png' alt='${index}' class='btnEditar' /> <img src='delete.png' alt='${index}' class='btnExcluir' /></td>
-                                    <td>${cli.Login}</td>
-                                    <td>${cli.Senha}</td>
-                                    <td>${cli.Nome}</td>
-                                    <td>${cli.Email}</td>
-                                </tr>`
-                    );
-                });
-            }
-
-            listarClientes();
-
-            $("#frmCadastro").on("submit", function (e) {
-                e.preventDefault();
-                console.log("Formulário enviado.");
-
-                var cliente = {
-                    Login: $("#txtLogin").val(),
-                    Senha: $("#txtSenha").val(),
-                    Nome: $("#txtNome").val(),
-                    Email: $("#txtEmail").val()
-                };
-                tbClientes.push(cliente);
-                localStorage.setItem("tbClientes", JSON.stringify(tbClientes));
-
-                listarClientes();
-
-                alert("Registro adicionado.");
-            });
-
-            $("#tblListar").on("click", ".btnExcluir", function () {
-                var index = $(this).attr("alt");
-                tbClientes.splice(index, 1);
-                localStorage.setItem("tbClientes", JSON.stringify(tbClientes));
-                listarClientes();
-                alert("Registro excluído.");
-            });
-
-            // Função de edição pode ser adicionada similarmente...
-        });
-    </script>
+    <script type="module" src="../js/login.js"></script>
 </body>
 </html>
