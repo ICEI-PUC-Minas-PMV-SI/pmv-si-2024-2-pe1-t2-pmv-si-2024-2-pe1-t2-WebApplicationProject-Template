@@ -118,7 +118,20 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  color: #ffffff;
   height: 500px;
+}
+
+.snack-card {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
+  background-color: #222121c4;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  width: 18rem;
 }
 
 #shopping-cart-title {
