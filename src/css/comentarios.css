@@ -76,7 +76,6 @@ label {
 .login-container {
   width: 100%;
   max-width: 500px;
-  /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); */
 }
 
 h2 {
@@ -93,7 +92,7 @@ h2 {
   color: wheat
 }
 .comment {
-  background-color: #f1f1f1; /* Fundo claro para os comentários */
+  background-color: ##121212; 
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 10px;
