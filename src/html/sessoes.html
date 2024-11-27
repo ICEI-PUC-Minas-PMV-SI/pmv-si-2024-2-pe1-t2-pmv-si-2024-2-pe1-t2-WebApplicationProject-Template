@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TicketWave</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/sessoes.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+  </head>
+
+  <body class="bg-dark text-light">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">TicketWave</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html"
+                >Início</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="busca-ingresso.html"
+                >Encontrar Um Filme</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="snack-bar.html">Snack Bar</a>
+            </li>
+            <li class="nav-item">
+              <a href="shopping-cart.html" class="nav-link">Carrinho</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="login.html"
+                  >Login</a
+                >
+              </li>
+            </ul>
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder=""
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light" type="submit">
+              Pesquisar
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container movie-container">
+      <div class="row">
+        <div class="col-md-2 text-start">
+          <button class="btn btn-outline-light">
+            <a href="../html/index.html">Voltar</a>
+          </button>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-4" id="horarios_filme"></div>
+        <div class="col-md-8">
+          <ul class="nav nav-pills mb-3 mb-2 d-flex nowrap" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="data3-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#data3"
+                type="button"
+                role="tab"
+                aria-controls="data3"
+                aria-selected="true"
+              >
+                QUA 14/11
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="data4-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#data4"
+                type="button"
+                role="tab"
+                aria-controls="data4"
+                aria-selected="true"
+              >
+                QUI 15/11
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="data5-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#data5"
+                type="button"
+                role="tab"
+                aria-controls="data5"
+                aria-selected="true"
+              >
+                SEX 16/11
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="data6-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#data6"
+                type="button"
+                role="tab"
+                aria-controls="data6"
+                aria-selected="true"
+              >
+                SÁB 17/11
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="data7-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#data7"
+                type="button"
+                role="tab"
+                aria-controls="tabela-rateio"
+                aria-selected="true"
+              >
+                DOM 18/11
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+                       <div
+              class="tab-pane fade"
+              id="data3"
+              role="tabpanel"
+              aria-labelledby="data3-tab"
+            >
+              <div class="row d-flex justify-content-center">                
+                <button class="horario-sessao">10:25 </button>
+                <button class="horario-sessao"> 17:30</button>
+              
+              </div>
+            </div>
+            <div class="tab-pane fade" id="data4" role="tabpanel" aria-labelledby="data4-tab">
+                <div class="row d-flex justify-content-center">
+                  <button class="horario-sessao">14:15</button>
+                  <button class="horario-sessao">14:30</button>
+                  <button class="horario-sessao">19:25</button>
+                     
+              </div>
+            </div>
+            <div class="tab-pane fade" id="data5" role="tabpanel" aria-labelledby="data5-tab">
+                <div class="row d-flex justify-content-center">
+                  <button class="horario-sessao">14:15</button>
+                  <button class="horario-sessao">14:30</button>
+                  <button class="horario-sessao">19:25</button>
+              </div> 
+            </div>
+            <div class="tab-pane fade" id="data6" role="tabpanel" aria-labelledby="data6-tab">
+                <div class="row d-flex justify-content-center">
+                  <button class="horario-sessao">10:00</button>
+                  <button class="horario-sessao">11:30</button>
+                  <button class="horario-sessao">19:25</button>
+              </div> 
+            </div>
+            <div class="tab-pane fade" id="data7" role="tabpanel" aria-labelledby="data7-tab">
+                <div class="row d-flex justify-content-center">
+                  <button class="horario-sessao">11:00</button>
+                  <button class="horario-sessao">14:00</button>
+                  <button class="horario-sessao">16:00</button>
+                  <button class="horario-sessao">18:00</button>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-end">
+        <div class="d-flex justify-content-end col-md-2 text-start">
+          <button class="btn btn-outline-light">
+            <a href="../html/poltronas.html">Avançar</a>
+          </button>
+        </div>
+      </div>
+    </div>
+    <footer class="footer bg-dark text-light py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>Sobre o TicketWave</h5>
+            <ul class="list-unstyled">
+              <li><a class="text-light" href="#">Sobre o TicketWave</a></li>
+              <li><a class="text-light" href="#">Acessibilidade</a></li>
+              <li><a class="text-light" href="#">História do TicketWave</a></li>
+              <li><a class="text-light" href="#">Fale Conosco</a></li>
+              <li><a class="text-light" href="#">Trabalhe Conosco</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Nossas Redes:</h5>
+            <ul class="list-unstyled">
+              <li><a class="text-light" href="#">TikTok</a></li>
+              <li><a class="text-light" href="#">Instagram</a></li>
+              <li><a class="text-light" href="#">Facebook</a></li>
+              <li><a class="text-light" href="#">Pinterest</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Filmes mais populares:</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a class="text-light" href="#"
+                  >Os Fantasmas Ainda se Divertem: Beetlejuice</a
+                >
+              </li>
+              <li><a class="text-light" href="#">Passagrana</a></li>
+              <li><a class="text-light" href="#">Silvio</a></li>
+              <li><a class="text-light" href="#">Nao Fale o Mal</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <p>&copy; 2024 TicketWave. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+  crossorigin="anonymous"
+></script>
+<script src="../js/menuFimes.js"></script>
