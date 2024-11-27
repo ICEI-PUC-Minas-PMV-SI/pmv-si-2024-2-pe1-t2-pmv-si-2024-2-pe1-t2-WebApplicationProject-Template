@@ -33,11 +33,11 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT02 - Criar conta parte 2**
+**Caso de Teste** | **CT01 - Criar conta parte 1**
  :--------------: | ------------
-**Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique no botão "Criar conta" <br> 
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em criar conta <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "Continuar".
 **Requisitos associados** | RF-001
-**Resultado esperado** | Usuário cadastrado
+**Resultado esperado** | Prosseguir para a parte 2 do cadastro
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
 **Resultado obtido** | Sucesso
 
@@ -45,20 +45,49 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
 
-|*Caso de Teste*                                 |*CT01 - Criar conta parte 1*                                         |
+|*Caso de Teste*                                 |*CT01 - Encontrar filmes *                                         |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
+|Requisito Associado | RF-001 -	O usuário deve ser capaz de encontrar ingressos para diversas sessões| 
 |Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
 
-|*Caso de Teste*                                 |*CT02 - Criar conta parte 2*                                        |
+|*Caso de Teste*                                 |*CT02 - Criar conta*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
+|Requisito Associado | RF-002 - O usuário deve poder criar um perfil para uso da plataforma, com login e senha|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
+|*Caso de Teste*                                 |*CT03 - filtrar filmes                                         |
+|---|---|
+|Requisito Associado | RF-003	O usuário deve ser capaz de realizar pesquisas por filtros, como pesquisa por gênero e classisficação indicativa|
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
+|*Caso de Teste*                                 |*CT04 - acessar ingressos                                         |
+|---|---|
+|Requisito Associado | RF-004	O usuário deve ter acesso ao(s) ingresso(s) comprado(s)|
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+
+|*Caso de Teste*                                 |*CT05 - fazer comentários                                         |
+|---|---|
+|Requisito Associado | O usuário deve ser capaz de comentar sobre a sessão que assistiu, apresentar críticas e informar sobre a duração dos trailers|
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+
+|*Caso de Teste*                                 |*CT06 - escolher sessão                                      |
+|---|---|
+|Requisito Associado | A aplicação deve mostrar ao usuário as sessões mais vazias|
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+
+|*Caso de Teste*                                 |*CT07 - Consumir snacks durante a sessão                                       |
+|---|---|
+|Requisito Associado | A plataforma deve apresentar ao usuário a possibilidade de comprar lanches para consumo durante e após a sessão|
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 ## Avaliação dos Testes de Software
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+|*Caso de Teste*                                 |*CT08 - Pagar o Estacionamento                                        |
+|---|---|
+|Requisito Associado | A aplicação deve apresentar a possibilidade de pagar o ticket de estacionamento|
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+## Avaliação dos Testes de Software
+
+odos os testes realizados foram bem-sucedidos, e as funcionalidades estão operando conforme esperado. Não houve falhas durante a execução dos testes, o que garante o bom desempenho do sistema. Em resumo, tudo está funcionando com êxito.
 
 ## Testes de unidade automatizados (Opcional)
 
@@ -95,44 +124,50 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1             | Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando. |
-| 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço. |
+| 1             | Você é uma pessoa que deseja assitir a um filme no cinema. Encontre no site um filme  e escolha a sua sessão. |
+| 2             | Você é uma pessoa que deseja relaxar assindo um filme, encontre uma sessão vazia  |
+| 3             | você gostaria de comentar sobre sessão ou filme que acabou de assir|
+| 4             | você é capaz de conseguir encontrar um filme de acordo com seus requisistos, (filtros desejados)|
+
 
 
 
 ## Registro de Testes de Usabilidade
 
-Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando.
+Cenário 1:  Você é uma pessoa que deseja assitir a um filme no cinema. Encontre no site um filme  e escolha a sua sessão
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 5                    | 27.87 segundos                  |
-| 2       | SIM             | 5                    | 17.11 segundos                  |
-| 3       | SIM             | 5                    | 39.09 segundos                  |
-|  |  |  |  |
-| **Média**     | 100%           | 5                | 28.02 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
 
 
-    Comentários dos usuários: Achei o site muito bom e intuitivo. 
-    Não tive dificuldades e acho que ficou bem intuitivo.
 
-
-Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço.
+Cenário | 2: Você é uma pessoa que deseja relaxar assindo um filme, encontre uma sessão vazia  |
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
-|  |  |  |  |
 | **Média**     | 100%           | 4.67                | 30.05 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
 
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+Cenário | 3: você gostaria de comentar sobre sessão ou filme que acabou de assir |
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 22.54 segundos                          |
+| **Média**     | 100%           | 4.67                | 30.05 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+
+
+
+Cenário | 4: você é capaz de conseguir encontrar um filme de acordo com seus requisistos, (filtros desejados)|
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 07.56 segundos                         |                         |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+
 
 ## Avaliação dos Testes de Usabilidade
 
