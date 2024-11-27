@@ -171,13 +171,17 @@ Cenário | 4: você é capaz de conseguir encontrar um filme de acordo com seus 
 
 ## Avaliação dos Testes de Usabilidade
 
-Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
+ O usuário conseguiu realizar o login de forma bem-sucedida, sem encontrar dificuldades no processo de autenticação. Após acessar o sistema, foi capaz de selecionar um filme e a sessão que mais
+atendia às suas preferências.
+ Além disso, ele teve a oportunidade de assistir ao filme e fornecer um comentário sobre sua experiência, contribuindo para a avaliação do conteúdo. Durante todas essas etapas, não houve falhas 
+ significativas, e o desempenho das funcionalidades foi satisfatório. A navegação foi fluida e sem erros, proporcionando uma experiência agradável para o usuário. Como resultado, conclui-se que 
+ as funcionalidades testadas operaram com sucesso. A taxa de falhas foi mínima, indicando uma boa estabilidade do sistema.
 
-Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários, que variou entre 4 (bom) e 5 (ótimo).
 
-Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Tal discrepância, em certa medida, é esperada, tendo em vista que o desenvolvedor já tem prévio conhecimento de toda a interface da aplicação, do posicionamento dos elementos, lógica de organização das páginas, etc.
 
-Contudo, tendo em vista que a diferença foi relevante (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), e ainda os comentários feitos por alguns usuários, entendemos haver oportunidades de melhoria na usabilidade da aplicação.
+
+
+
 
 
 
