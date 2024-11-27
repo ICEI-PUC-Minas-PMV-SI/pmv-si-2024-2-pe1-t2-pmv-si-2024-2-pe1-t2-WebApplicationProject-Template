@@ -29,19 +29,15 @@
           <li class="nav-item">
             <a class="nav-link" href="snack-bar.html">Snack Bar</a>
           </li>
+        </ul>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a href="shopping-cart.html" class="nav-link">Carrinho</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="login.html">Login</a>
+          </li>
         </ul>
-        <form class="d-flex" role="search">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="login.html">Login</a>
-            </li>
-          </ul>
-          <input class="form-control me-2 search-nav-bar" type="search" placeholder="" aria-label="Search">
-          <button class="btn btn-outline-light" type="submit">Pesquisar</button>
-        </form>
       </div>
     </div>
   </nav>
@@ -54,7 +50,7 @@
             aria-controls="pills-login" aria-selected="true">Login</a>
         </li>
         <li class="nav-item" role="presentation">
-          <a class="nav-link" id="tab-register" data-mdb-pill-init href="cadastro-copy.html" role="tab"
+          <a class="nav-link" id="tab-register" data-mdb-pill-init href="cadastro.html" role="tab"
             aria-controls="pills-register" aria-selected="false">Cadastre-se</a>
         </li>
       </ul>
@@ -81,7 +77,7 @@
                       </div>
                   </div>
               </div>
-              <button id="loginButton" class="btn btn-primary">Entrar</button>
+              <button id="loginButton" class="btn btn-primary" onclick="checkIfLoginExists();">Entrar</button>
               <p id="message" class="mt-3"></p>
           </div>
         </div>
@@ -125,8 +121,7 @@
       </div>
     </div>
   </footer>
-  <script src="../js/login.js"></script>
-  <script src="../js/login_json.js"></script>
+  <script type="module" src="../js/login.js"></script>
 </body>
 
 </html>

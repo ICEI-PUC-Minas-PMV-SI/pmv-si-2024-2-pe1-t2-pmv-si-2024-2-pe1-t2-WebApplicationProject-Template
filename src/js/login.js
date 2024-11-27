@@ -1,27 +1,51 @@
-// Simulação de um banco de dados com JSON
-const users = [
-  { username: "usuario1", password: "senha123" },
-  { username: "usuario2", password: "senha456" }
-];
+import axios from 'axios';
+import { log } from 'console';
+import { execPath } from 'process';
 
-// Função para validar o login
-function validateLogin() {
-  const username = document.getElementById("loginName").value;
-  const password = document.getElementById("loginPassword").value;
-  const messageElement = document.getElementById("message");
+async function registerLoginCredential() {
+    
+    const login = document.getElementById("txtLogin").value;
+    const password = document.getElementById("txtSenha").value;
+    const name = document.getElementById("txtNome").value;
+    const email = document.getElementById("txtEmail").value;
 
-  // Verifica se as credenciais estão corretas
-  const user = users.find(user => user.username === username && user.password === password);
+    const inputCredential = {
+        login,
+        password,
+        name,
+        email
+    };
 
-  if (user) {
-      messageElement.textContent = "Login bem-sucedido!";
-      messageElement.style.color = "green";
-      // Aqui você pode redirecionar para outra página ou realizar outra ação
-  } else {
-      messageElement.textContent = "Credenciais inválidas. Tente novamente.";
-      messageElement.style.color = "red";
-  }
+    try {
+        await axios.post(`http://localhost:3000/login_credentials`, inputCredential);
+        alert(`Olá ${login}! Registramos seus dados com sucesso!`);
+    } catch(err) {
+        alert("Não foi possível registrar sua conta. Tente novamente mais tarde.");
+    }
+    document.getElementById('registerForm').reset();
 }
 
-// Adiciona o evento de clique ao botão de login
-document.getElementById("loginButton").addEventListener("click", validateLogin);
+async function checkIfLoginExists() {
+
+    const login = document.getElementById("loginName").value;
+    const password = document.getElementById("loginPassword").value;
+
+    const inputCredential = {
+        login,
+        password
+    };
+
+    const { data: credential_list } = await axios.get("http://localhost:3000/login_credentials");
+    foundLogin = credential_list.find(credential => credential.login === inputCredential.login);
+
+    if (foundLogin && foundLogin.password === inputCredential.password) {
+        alert(`Olá ${login}! Você foi logado com sucesso!`);
+    } else {
+        alert("Usuário ou Senha Incorretos. Verifique os dados informados.");
+    }
+
+}
+
+// include functions on global scope of the window
+window.registerLoginCredential = registerLoginCredential;
+window.checkIfLoginExists = checkIfLoginExists;
