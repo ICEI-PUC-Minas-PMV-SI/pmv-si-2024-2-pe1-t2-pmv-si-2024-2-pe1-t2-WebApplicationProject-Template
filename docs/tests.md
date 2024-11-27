@@ -50,38 +50,38 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-001 -	O usuário deve ser capaz de encontrar ingressos para diversas sessões| 
 |Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
 
-|*Caso de Teste*                                 |*CT02 - Criar conta*                                        |
+|*Caso de Teste*                                 |*CT02 - Criar conta*                                               |
 |---|---|
 |Requisito Associado | RF-002 - O usuário deve poder criar um perfil para uso da plataforma, com login e senha|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar                     | 
 
-|*Caso de Teste*                                 |*CT03 - filtrar filmes                                         |
+|*Caso de Teste*                                 |*CT03 - filtrar filmes                                             |
 |---|---|
 |Requisito Associado | RF-003	O usuário deve ser capaz de realizar pesquisas por filtros, como pesquisa por gênero e classisficação indicativa|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar                     | 
 
-|*Caso de Teste*                                 |*CT04 - acessar ingressos                                         |
-|---|---|
+|*Caso de Teste*                                 |*CT04 - acessar ingressos                                          |
+|---|---|  
 |Requisito Associado | RF-004	O usuário deve ter acesso ao(s) ingresso(s) comprado(s)|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar                     | 
 
-|*Caso de Teste*                                 |*CT05 - fazer comentários                                         |
+|*Caso de Teste*                                 |*CT05 - fazer comentários                                          |
 |---|---|
 |Requisito Associado | O usuário deve ser capaz de comentar sobre a sessão que assistiu, apresentar críticas e informar sobre a duração dos trailers|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar                     | 
 
-|*Caso de Teste*                                 |*CT06 - escolher sessão                                      |
+|*Caso de Teste*                                 |*CT06 - escolher sessão                                            |
 |---|---|
-|Requisito Associado | A aplicação deve mostrar ao usuário as sessões mais vazias|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Requisito Associado | A aplicação deve mostrar ao usuário as sessões mais vazias                                    |
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar                     | 
 
-|*Caso de Teste*                                 |*CT07 - Consumir snacks durante a sessão                                       |
+|*Caso de Teste*                                 |*CT07 - Consumir snacks durante a sessão                           |
 |---|---|
 |Requisito Associado | A plataforma deve apresentar ao usuário a possibilidade de comprar lanches para consumo durante e após a sessão|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar                      | 
 ## Avaliação dos Testes de Software
 
-|*Caso de Teste*                                 |*CT08 - Pagar o Estacionamento                                        |
+|*Caso de Teste*                                 |*CT08 - Pagar o Estacionamento                                      |
 |---|---|
 |Requisito Associado | A aplicação deve apresentar a possibilidade de pagar o ticket de estacionamento|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
