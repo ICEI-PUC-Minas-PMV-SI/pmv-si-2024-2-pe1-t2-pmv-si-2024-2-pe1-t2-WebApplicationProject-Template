@@ -1,0 +1,86 @@
+{
+  "items_in_cart": [
+    
+  ],
+  "login_credentials": [
+    {
+      "id": "1",
+      "username": "testlogin",
+      "password": "test1234"
+    }
+  ], 
+  "films": [
+    {
+      "titulo": "Borderlands O Destino do Universo Está em Jogo",
+      "genero": "Ficção Científica",
+      "classificacaoIndicativa": 14,
+      "notaImdb": 7.8,
+      "cinema": "Cinemark São Paulo",
+      "paisDeOrigem": "Brasil",
+      "duracao": 120,
+      "urlImagem": "../img/menudefilmesimg/b.webp",
+      "horario": "18:50"
+    },
+    
+    {
+  "titulo": "Alien Romulus",
+  "genero": "Terror",
+  "classificacaoIndicativa": 18,
+  "notaImdb": 6.5,
+  "cinema": "Kinoplex Rio de Janeiro",
+  "paisDeOrigem": "Estados Unidos",
+  "duracao": 95,
+  "urlImagem": "../img/menudefilmesimg/AlienRomulus.webp",
+      "horario": "19:50"
+
+},
+ 
+{
+  "titulo": "Hachiko Para Sempre",
+  "genero": "Drama",
+  "classificacaoIndicativa": 12,
+  "notaImdb": 8.2,
+  "cinema": "Cinemark Brasília",
+  "paisDeOrigem": "Canadá",
+  "duracao": 140,
+  "urlImagem": "../img/menudefilmesimg/HachikoParaSempre.webp",
+  "horario": "19:40"
+},
+
+{
+  "titulo": "Night Has Fallen",
+  "genero": "Suspense",
+  "classificacaoIndicativa": 16,
+  "notaImdb": 7.0,
+  "cinema": "UCI Cinemas Porto Alegre",
+  "paisDeOrigem": "Reino Unido",
+  "duracao": 110,
+  "urlImagem": "../img/menudefilmesimg/NightHasFallen.webp",
+  "horario": "20:40"
+},
+
+{
+  "titulo": "Cold Storage",
+  "genero": "Ação",
+  "classificacaoIndicativa": 14,
+  "notaImdb": 6.8,
+  "cinema": "Cinemark São Paulo",
+  "paisDeOrigem": "Estados Unidos",
+  "duracao": 125,
+  "urlImagem": "../img/menudefilmesimg/ColdStorage.webp",
+  "horario": "16:40"
+},
+
+{
+  "titulo": "The Conjuring  Last Rites",
+  "genero": "Mistério",
+  "classificacaoIndicativa": 10,
+  "notaImdb": 7.5,
+  "cinema": "Cinemark Rio de Janeiro",
+  "paisDeOrigem": "França",
+  "duracao": 100,
+  "urlImagem": "../img/menudefilmesimg/TheConjuringLastRites.webp",
+  "horario": "21:40"
+}
+  ]
+}

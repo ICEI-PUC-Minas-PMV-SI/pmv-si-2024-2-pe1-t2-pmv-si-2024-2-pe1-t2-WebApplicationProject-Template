@@ -31,19 +31,15 @@
           <li class="nav-item">
             <a class="nav-link" href="snack-bar.html">Snack Bar</a>
           </li>
+        </ul>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a href="shopping-cart.html" class="nav-link">Carrinho</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="login.html">Login</a>
+          </li>
         </ul>
-        <form class="d-flex" role="search">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="login.html">Login</a>
-            </li>
-          </ul>
-          <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
-          <button class="btn btn-outline-light" type="submit">Pesquisar</button>
-        </form>
       </div>
     </div>
   </nav>
@@ -56,25 +52,26 @@
             <div class="filters-container">
               <div class="col-md-4 d-flex flex-column justify-content-start input-container">
                 <div class="input-wrapper">
-                  <input type="text" class="form-control mb-3 input-search" placeholder="🔍 Buscar Filme">
+                  <input id="titulo" type="text" class="form-control mb-3 input-search" placeholder="Título">
                 </div>
               </div>
               <div class="col-md-4">
-                <input type="text" class="form-control mb-3 input-search" placeholder="Gênero">
-                <input type="text" class="form-control mb-3 input-search" placeholder="Classificação Indicativa">
-                <input type="text" class="form-control mb-3 input-search" placeholder="Nota IMDB">
+                <input id="genero" type="text" class="form-control mb-3 input-search" placeholder="Gênero">
+                <input id="classificacaoIndicativa" type="number" class="form-control mb-3 input-search" placeholder="Classificação Indicativa">
+                <input id="notaImdb" type="number" class="form-control mb-3 input-search" placeholder="Nota IMDB">
               </div>
               <div class="col-md-4">
-                <input type="text" class="form-control mb-3 input-search" placeholder="Cinema - Localização">
-                <input type="text" class="form-control mb-3 input-search" placeholder="País de Origem">
-                <input type="text" class="form-control mb-3 input-search" placeholder="Duração">
+                <input id="cinemaLozalizacao" type="text" class="form-control mb-3 input-search" placeholder="Cinema - Localização">
+                <input id="paisDeOrigem" type="text" class="form-control mb-3 input-search" placeholder="País de Origem">
+                <input id="duracao" type="number" class="form-control mb-3 input-search" placeholder="Duração(Min)">
               </div>
             </div>
+            <button id="buttonfilter" type="button" class="btn btn-primary">Filtrar</button>
             <div class="news-search">
-              <h3>Recomendações:</h3>
+              <h3 id="recomend-found">Recomendações:</h3>
             </div>
 
-            <section class="movie-container-search">
+            <section id="film-section" class="movie-container-search">
               <div class="card-search">
                 <div class="movie-image-search">
                   <img src="../img/menudefilmesimg/tearsforfears.webp" />
@@ -183,6 +180,13 @@
       </div>
     </div>
   </footer>
+
+  
+    <!-- Carregar Axios via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
+    <!-- Seu arquivo JS que contém a lógica -->
+    <script src="../js/busca-ingresso.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastro de Usuário</title>
+    <meta charset="UTF-8">
+    <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .panel {
+            background-color: gray;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px; /* Ajuste conforme necessário */
+            text-align: center;
+        }
+
+            .panel img {
+                float: left;
+                margin-right: 10px;
+            }
+
+            .panel h1 {
+                margin-top: 0;
+            }
+
+            .panel table {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .panel table, .panel th, .panel td {
+                border: none;
+                padding: 10px;
+            }
+
+            .panel input {
+                width: 100%;
+                padding: 8px;
+                margin: 5px 0;
+            }
+
+            .panel button {
+                background-color: black;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="panel">
+            <img src="icon.png" alt="Icon" width="80" height="80">
+            <h1>CRIE SUA CONTA</h1>
+            <form id="frmCadastro">
+                <table>
+                    <tr>
+                        <td><label for="txtLogin">Login:</label></td>
+                        <td><input type="text" id="txtLogin"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="txtSenha">Senha:</label></td>
+                        <td><input type="password" id="txtSenha"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="txtNome">Nome:</label></td>
+                        <td><input type="text" id="txtNome"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="txtEmail">Email:</label></td>
+                        <td><input type="email" id="txtEmail"></td>
+                    </tr>
+                </table>
+                <input type="submit" value="Salvar" id="btnSalvar" />
+            </form>
+            <table id="tblListar"></table>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            console.log("DOM carregado e pronto.");
+
+            var tbClientes = JSON.parse(localStorage.getItem("tbClientes")) || [];
+
+            function listarClientes() {
+                $("#tblListar").html("");
+                tbClientes.forEach(function (cli, index) {
+                    $("#tblListar").append(
+                        `<tr>
+                                    <td><img src='edit.png' alt='${index}' class='btnEditar' /> <img src='delete.png' alt='${index}' class='btnExcluir' /></td>
+                                    <td>${cli.Login}</td>
+                                    <td>${cli.Senha}</td>
+                                    <td>${cli.Nome}</td>
+                                    <td>${cli.Email}</td>
+                                </tr>`
+                    );
+                });
+            }
+
+            listarClientes();
+
+            $("#frmCadastro").on("submit", function (e) {
+                e.preventDefault();
+                console.log("Formulário enviado.");
+
+                var cliente = {
+                    Login: $("#txtLogin").val(),
+                    Senha: $("#txtSenha").val(),
+                    Nome: $("#txtNome").val(),
+                    Email: $("#txtEmail").val()
+                };
+                tbClientes.push(cliente);
+                localStorage.setItem("tbClientes", JSON.stringify(tbClientes));
+
+                listarClientes();
+
+                alert("Registro adicionado.");
+            });
+
+            $("#tblListar").on("click", ".btnExcluir", function () {
+                var index = $(this).attr("alt");
+                tbClientes.splice(index, 1);
+                localStorage.setItem("tbClientes", JSON.stringify(tbClientes));
+                listarClientes();
+                alert("Registro excluído.");
+            });
+
+            // Função de edição pode ser adicionada similarmente...
+        });
+    </script>
+</body>
+</html>
