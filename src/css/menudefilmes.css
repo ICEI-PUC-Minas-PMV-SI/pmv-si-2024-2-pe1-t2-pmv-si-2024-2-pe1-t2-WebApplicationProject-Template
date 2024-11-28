@@ -69,10 +69,12 @@
 
 .movies-btn {
     text-transform: uppercase;
-    text-decoration: underline;
+    text-decoration: none;
+    background-color: #ffffff00;
     font-weight: bold;
     font-size: .90em;
     margin: auto;
+    color: #fff;
 }
 
 .category {
@@ -122,4 +124,8 @@ a {
 
 p {
     color: #fff;
+}
+
+button {
+    background-color: none;
 }
