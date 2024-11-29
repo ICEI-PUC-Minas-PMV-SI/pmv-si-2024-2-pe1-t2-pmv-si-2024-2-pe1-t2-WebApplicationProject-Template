@@ -75,7 +75,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Resultado esperado** | filme encontrado (mostrar filme)
 **Dados de entrada** | inserção de dados especifícos no fltro
 **Resultado obtido** | Sucesso
-Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
+
 
 **Caso de Teste** | **CT07 - Encontrar filme 2**
  :--------------: | ------------
@@ -84,8 +84,6 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 **Resultado esperado** | filme encontrado (mostrar filme)
 **Dados de entrada** | inserção de dados especifícos no fltro
 **Resultado obtido** | Sucesso
-Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
-
 
 **Caso de Teste** | **CT08 - Encontrar filme 2**
  :--------------: | ------------
@@ -94,6 +92,8 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 **Resultado esperado** | filme encontrado (mostrar filme)
 **Dados de entrada** | inserção de dados especifícos no fltro
 **Resultado obtido** | Sucesso
+
+
 
 
 
