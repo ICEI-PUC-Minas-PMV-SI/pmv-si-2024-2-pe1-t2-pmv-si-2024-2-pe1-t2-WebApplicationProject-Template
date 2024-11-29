@@ -60,7 +60,8 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT05 - Fazer comentários
  :--------------: | ------------
-**Procedimento**  | 1) clique na pagina /pmv-si-2024-2-pe1-t2-t2_gp04/src/html/comentarios.html 2) escreva seu nome na sessão "usuário" 3)Escreva seu comentário na sessão "comentários" 3)clique em "enviar"
+**Procedimento**  | 1) clique na pagina /pmv-si-2024-2-pe1-t2-t2_gp04/src/html/comentarios.html 2) escreva seu nome na sessão "usuário" 3)Escreva seu comentário na sessão "comentários"
+3)clique em "enviar"
 **Requisitos associados** | RF-005
 **Resultado esperado** | Comentário públicado 
 **Dados de entrada** | inserção de dados especifícos nos campos "usuários" e "comentáios"
