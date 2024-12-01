@@ -55,7 +55,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Requisitos associados** | RF-004
 **Resultado esperado** | ver ingressos
 **Dados de entrada** | clicar no Carrinho
-**Resultado obtido** | sucesso
+**Resultado obtido** | aplicação não implementada 
 
 
 **Caso de Teste** | **CT05 - Fazer comentários
@@ -107,38 +107,38 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*CT02 - Criar conta*                                               |
 |---|---|
 |Requisito Associado | RF-002 - O usuário deve poder criar um perfil para uso da plataforma, com login e senha|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar                     | 
+|Link do vídeo do teste realizado: | docs/vídeos/2024-12-01 17-04-04.mkv/ docs/vídeos/2024-12-01 17-04-44.mkv                     | 
 
 |*Caso de Teste*                                 |*CT03 - filtrar filmes                                             |
 |---|---|
 |Requisito Associado | RF-003	O usuário deve ser capaz de realizar pesquisas por filtros, como pesquisa por gênero e classisficação indicativa|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar                     | 
+|Link do vídeo do teste realizado: |docs/vídeos/2024-12-01 17-09-10.mkv                     | 
 
 |*Caso de Teste*                                 |*CT04 - acessar ingressos                                          |
 |---|---|  
 |Requisito Associado | RF-004	O usuário deve ter acesso ao(s) ingresso(s) comprado(s)|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar                     | 
+|Link do vídeo do teste realizado: | Aplicação não implementada                      | 
 
 |*Caso de Teste*                                 |*CT05 - fazer comentários                                          |
 |---|---|
 |Requisito Associado | O usuário deve ser capaz de comentar sobre a sessão que assistiu, apresentar críticas e informar sobre a duração dos trailers|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar                     | 
+|Link do vídeo do teste realizado: | docs/vídeos/2024-12-01 17-12-41.mkv                     | 
 
 |*Caso de Teste*                                 |*CT06 - escolher sessão                                            |
 |---|---|
 |Requisito Associado | A aplicação deve mostrar ao usuário as sessões mais vazias                                    |
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar                     | 
+|Link do vídeo do teste realizado: |docs/vídeos/2024-12-01 17-14-03.mkv                     | 
 
 |*Caso de Teste*                                 |*CT07 - Consumir snacks durante a sessão                           |
 |---|---|
 |Requisito Associado | A plataforma deve apresentar ao usuário a possibilidade de comprar lanches para consumo durante e após a sessão|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar                      | 
+|Link do vídeo do teste realizado: | docs/vídeos/2024-12-01 17-15-04.mkv                      | 
 ## Avaliação dos Testes de Software
 
 |*Caso de Teste*                                 |*CT08 - Pagar o Estacionamento                                      |
 |---|---|
 |Requisito Associado | A aplicação deve apresentar a possibilidade de pagar o ticket de estacionamento|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: |docs/vídeos/2024-12-01 17-17-54.mkv | 
 ## Avaliação dos Testes de Software
 
 odos os testes realizados foram bem-sucedidos, e as funcionalidades estão operando conforme esperado. Não houve falhas durante a execução dos testes, o que garante o bom desempenho do sistema. Em resumo, tudo está funcionando com êxito.
