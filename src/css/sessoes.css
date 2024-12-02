@@ -3,38 +3,21 @@
     margin: 0;
 }
 
-.back-btn {
-    border: 1px solid #fff;
-    padding: 5px;
-    border-radius: 7px;
-    transition: .5s;
-    display: flex;
-    justify-content: space-between;
-    width: 51px;
-    text-align: center;  
-    margin-left: 80px;  
-    margin-top: 10px;
-}
-
-.back-btn:hover {
-    background-color:#343a40;
-}
-
 .movie-conteiner {
     display:flex;
     justify-content: space-around;
     max-width: 90%;
     min-width: 90%;
-    height: 600px;
+    height: 300px;
     align-items: center;
     margin: auto;
     flex-wrap: wrap;
 }
 
 .card {
-    max-width: 22%;
-    min-width: 22%;
-    height: 80%;
+    max-width: 90%;
+    min-width: 90%;
+    height: 90%;
     display: flex;
     flex-direction: column;
     border-radius: 5px;
@@ -55,74 +38,57 @@
     border-radius: 10px;
 }
 
-.movie-description {
-    padding: 10px;
-    border-radius: 10px;
-    width: 100%;
-    height: 25%; 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: auto;
-    background-color: #222121b6;
-    overflow: hidden; /* Esconde o conteúdo extra */
-    text-overflow: ellipsis; /* Adiciona elipses caso o texto seja muito longo */
-}
-
 .movies-title {
-    width: 100%;
     display: flex;
     justify-content: center;
 }
 
 .movies-btn {
     text-transform: uppercase;
-    text-decoration: underline;
     font-weight: bold;
     font-size: .90em;
     margin: auto;
+    background-color: #ffffff00;
+    color: #fff;
 }
 
 .category {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-}
-
-.classification16 {
-    background-color: rgba(255, 0, 0, 0.466);
     color: #fff;
     font-weight: bold;
     padding: 5px;
     border-radius: 5px;
 }
 
-a {
-    text-decoration: none;
-    color: #fff;
-    font-family: helvetica;
-}
-
 p {
     color: #fff;
 }
 
-.next-btn {
-    border: 1px solid #fff;
-    padding: 5px;
-    border-radius: 7px;
-    transition: .5s;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 570px;
-}
-
-.next-btn:hover {
-    background-color:#343a40;
-}
-
-.horario-sessao {
+.horario {
     background-color: #343a40;
     border-radius: 15px;
+    color: #fff;
+    display: block;
+    width: 70px;
+    margin: 10px;
+    transition: .5s;
 }
+
+.horario:hover {
+    background-color: #fff;
+    color: #343a40;
+}
+
+.horario-selecionado {    
+        background-color: rgba(1, 1, 41, 0.493);;
+        color: #fff;
+
+}
+
+
+
+
+
 
