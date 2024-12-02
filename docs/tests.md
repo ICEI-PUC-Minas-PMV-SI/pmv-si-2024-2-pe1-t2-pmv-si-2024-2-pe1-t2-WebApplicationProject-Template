@@ -25,9 +25,9 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
 
 
-**Caso de Teste** | **CT01 - Criar conta parte 1**
- :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço /pmv-si-2024-2-pe1-t2-t2_gp04/src/html/cadastro.html 2) Clique em criar conta <br> 3) Preencha todos os campos do formulário <br> 4) Clique no botão "registrar".
+**Caso de Teste**  | **CT01 - Criar conta parte 1**
+ :--------------:  | ------------
+**Procedimento**   | 1) Acesse o endereço /pmv-si-2024-2-pe1-t2-t2_gp04/src/html/cadastro.html 2) Clique em criar conta <br> 3) Preencha todos os campos do formulário <br> 4) Clique no botão "registrar".
 **Requisitos associados** | RF-001
 **Resultado esperado** | cadastro gerado com sucesso
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
