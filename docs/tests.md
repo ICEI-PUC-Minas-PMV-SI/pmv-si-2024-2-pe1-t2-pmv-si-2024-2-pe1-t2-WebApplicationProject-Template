@@ -27,7 +27,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT01 - Criar conta parte 1**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço /pmv-si-2024-2-pe1-t2-t2_gp04/src/html/cadastro.html 2) Clique em criar conta <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "registrar".
+**Procedimento**  | 1) Acesse o endereço /pmv-si-2024-2-pe1-t2-t2_gp04/src/html/cadastro.html 2) Clique em criar conta <br> 3) Preencha todos os campos do formulário <br> 4) Clique no botão "registrar".
 **Requisitos associados** | RF-RF-002
 **Resultado esperado** | cadastro gerado com sucesso
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
@@ -51,7 +51,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT04 - Acesso aos ingressos 
  :--------------: | ------------
-**Procedimento**  | 1) clique na página Carrinho no canto superior a direita na tela  2) você conseguirá vizualizar os ingressos no carrinho 
+**Procedimento**  | 1) clique na sessão Carrinho no canto superior a direita na tela  2) você conseguirá vizualizar os ingressos no carrinho.
 **Requisitos associados** | RF-004
 **Resultado esperado** | ver ingressos
 **Dados de entrada** | clicar no Carrinho
@@ -60,40 +60,38 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT05 - Fazer comentários
  :--------------: | ------------
-**Procedimento**  | 1) clique na pagina /pmv-si-2024-2-pe1-t2-t2_gp04/src/html/comentarios.html 2) escreva seu nome na sessão "usuário" 3)Escreva seu comentário na sessão "comentários"
-3)clique em "enviar"
+**Procedimento**  | 1) clique na sessão "comentários no canto superior da tela 2) escreva seu nome na sessão "usuário" 3)Escreva seu comentário na sessão "comentários" 4)clique em "enviar".
 **Requisitos associados** | RF-005
 **Resultado esperado** | Comentário públicado 
 **Dados de entrada** | inserção de dados especifícos nos campos "usuários" e "comentáios"
 **Resultado obtido** | Sucesso
 
 
-**Caso de Teste** | **CT06 - Mostrar sessões vazias  2**
+**Caso de Teste** | **CT06 - Mostrar sessões vazias  
  :--------------: | ------------
-**Procedimento**  | 1) clique na pagina /pmv-si-2024-2-pe1-t2-t2_gp04/src/html/busca-ingresso.html <br> 2) clique no filtro que deseja preencher 3) Clique no botão filtrar 
+**Procedimento**  | 1) clique na pagina /pmv-si-2024-2-pe1-t2-t2_gp04/src/html/busca-ingresso.html <br> 2) clique no filtro que deseja preencher 3) Clique no botão filtrar.
 **Requisitos associados** | RF-001
 **Resultado esperado** | filme encontrado (mostrar filme)
 **Dados de entrada** | inserção de dados especifícos no fltro
 **Resultado obtido** | Sucesso
 
 
-**Caso de Teste** | **CT07 - Encontrar filme 2**
+**Caso de Teste** | **CT07 - Comprar snaks
  :--------------: | ------------
-**Procedimento**  | 1) clique na pagina /pmv-si-2024-2-pe1-t2-t2_gp04/src/html/busca-ingresso.html <br> 2) clique no filtro que deseja preencher 3) Clique no botão filtrar 
-**Requisitos associados** | RF-001
-**Resultado esperado** | filme encontrado (mostrar filme)
-**Dados de entrada** | inserção de dados especifícos no fltro
-**Resultado obtido** | Sucesso
-
-**Caso de Teste** | **CT08 - Encontrar filme 2**
- :--------------: | ------------
-**Procedimento**  | 1) clique na pagina /pmv-si-2024-2-pe1-t2-t2_gp04/src/html/busca-ingresso.html <br> 2) clique no filtro que deseja preencher 3) Clique no botão filtrar 
-**Requisitos associados** | RF-001
+**Procedimento**  | 1) clique na sessão snaks no canto superior a direital <br> 2)selecione o lsnche que deseja comprar 3) vá ao carrinho 4)clique em pagar.
+**Requisitos associados** | RF-007
 **Resultado esperado** | filme encontrado (mostrar filme)
 **Dados de entrada** | inserção de dados especifícos no fltro
 **Resultado obtido** | Sucesso
 
 
+**Caso de Teste** | **CT08 -Pagar o estacionamento 
+ :--------------: | ------------
+**Procedimento**  | Não implementada 
+**Requisitos associados** | RF-008
+**Resultado esperado** |Vizualizar e pagar estacionamento
+**Dados de entrada** | seleção do valor do estacionamento 
+**Resultado obtido** | Aplicação não implementada 
 
 
 
@@ -105,41 +103,40 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-001 -	O usuário deve ser capaz de encontrar ingressos para diversas sessões| 
 |Link do vídeo do teste realizado: | docs/vídeos/2024-12-01 17-09-10.mkv| 
 
-|*Caso de Teste*                                 |*CT02 - Criar conta*                                               |
+|*Caso de Teste*                                 |*CT02 - Criar conta*                                                |
 |---|---|
 |Requisito Associado | RF-002 - O usuário deve poder criar um perfil para uso da plataforma, com login e senha|
-|Link do vídeo do teste realizado: | docs/vídeos/2024-12-01 17-04-04.mkv/ docs/vídeos/2024-12-01 17-04-44.mkv                     | 
+|Link do vídeo do teste realizado: | docs/vídeos/2024-12-01 17-04-04.mkv/ docs/vídeos/2024-12-01 17-04-44.mkv         | 
 
-|*Caso de Teste*                                 |*CT03 - filtrar filmes                                             |
+|*Caso de Teste*                                 |*CT03 - filtrar filmes                                              |
 |---|---|
 |Requisito Associado | RF-003	O usuário deve ser capaz de realizar pesquisas por filtros, como pesquisa por gênero e classisficação indicativa|
-|Link do vídeo do teste realizado: |docs/vídeos/2024-12-01 17-09-10.mkv                     | 
+|Link do vídeo do teste realizado: |docs/vídeos/2024-12-01 17-09-10.mkv                                               | 
 
-|*Caso de Teste*                                 |*CT04 - acessar ingressos                                          |
+|*Caso de Teste*                                 |*CT04 - acessar ingressos                                           |
 |---|---|  
-|Requisito Associado | RF-004	O usuário deve ter acesso ao(s) ingresso(s) comprado(s)|
-|Link do vídeo do teste realizado: | Aplicação não implementada                      | 
-
-|*Caso de Teste*                                 |*CT05 - fazer comentários                                          |
+|Requisito Associado | RF-004	O usuário deve ter acesso ao(s) ingresso(s) comprado(s)                                 |
+|Link do vídeo do teste realizado: | Aplicação não implementada                                                       | 
+|*Caso de Teste*                                 |*CT05 - fazer comentários                                           |
 |---|---|
 |Requisito Associado | O usuário deve ser capaz de comentar sobre a sessão que assistiu, apresentar críticas e informar sobre a duração dos trailers|
-|Link do vídeo do teste realizado: | docs/vídeos/2024-12-01 17-12-41.mkv                     | 
+|Link do vídeo do teste realizado: | docs/vídeos/2024-12-01 17-12-41.mkv                                              | 
 
-|*Caso de Teste*                                 |*CT06 - escolher sessão                                            |
+|*Caso de Teste*                                 |*CT06 - escolher sessão                                             |
 |---|---|
-|Requisito Associado | A aplicação deve mostrar ao usuário as sessões mais vazias                                    |
-|Link do vídeo do teste realizado: |docs/vídeos/2024-12-01 17-14-03.mkv                     | 
+|Requisito Associado | A aplicação deve mostrar ao usuário as sessões mais vazias                                     |
+|Link do vídeo do teste realizado: |docs/vídeos/2024-12-01 17-14-03.mkv                                               | 
 
-|*Caso de Teste*                                 |*CT07 - Consumir snacks durante a sessão                           |
+|*Caso de Teste*                                 |*CT07 - Consumir snacks durante a sessão                            |
 |---|---|
 |Requisito Associado | A plataforma deve apresentar ao usuário a possibilidade de comprar lanches para consumo durante e após a sessão|
-|Link do vídeo do teste realizado: | docs/vídeos/2024-12-01 17-15-04.mkv                      | 
+|Link do vídeo do teste realizado: | docs/vídeos/2024-12-01 17-15-04.mkv                                              | 
 ## Avaliação dos Testes de Software
 
 |*Caso de Teste*                                 |*CT08 - Pagar o Estacionamento                                      |
 |---|---|
 |Requisito Associado | A aplicação deve apresentar a possibilidade de pagar o ticket de estacionamento|
-|Link do vídeo do teste realizado: |docs/vídeos/2024-12-01 17-17-54.mkv | 
+|Link do vídeo do teste realizado: |docs/vídeos/2024-12-01 17-17-54.mkv                                               | 
 ## Avaliação dos Testes de Software
 
 odos os testes realizados foram bem-sucedidos, e as funcionalidades estão operando conforme esperado. Não houve falhas durante a execução dos testes, o que garante o bom desempenho do sistema. Em resumo, tudo está funcionando com êxito.
