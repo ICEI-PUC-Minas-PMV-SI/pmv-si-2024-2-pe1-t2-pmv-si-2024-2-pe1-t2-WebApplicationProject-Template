@@ -44,7 +44,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Caso de Teste** | **CT03 - Encontrar filme 
  :--------------: | ------------
 **Procedimento**  | 1) clique na pagina /pmv-si-2024-2-pe1-t2-t2_gp04/src/html/busca-ingresso.html <br> 2) clique no filtro que deseja preencher 3) Clique no botão filtrar 
-**Requisitos associados** | RF-001
+**Requisitos associados** | RF-003
 **Resultado esperado** | filme encontrado (mostrar filme)
 **Dados de entrada** | inserção de dados especifícos no filtro
 **Resultado obtido** | Sucesso
@@ -62,7 +62,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
  :--------------: | ------------
 **Procedimento**  | 1) clique na sessão "comentários no canto superior da tela 2) escreva seu nome na sessão "usuário" 3)Escreva seu comentário na sessão "comentários" 4)clique em "enviar".
 **Requisitos associados** | RF-005
-**Resultado esperado** | Comentário públicado 
+**Resultado esperado** | comentário públicado 
 **Dados de entrada** | inserção de dados especifícos nos campos "usuários" e "comentáios"
 **Resultado obtido** | Sucesso
 
@@ -70,7 +70,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Caso de Teste** | **CT06 - Mostrar sessões vazias  
  :--------------: | ------------
 **Procedimento**  | 1) clique na pagina /pmv-si-2024-2-pe1-t2-t2_gp04/src/html/busca-ingresso.html <br> 2) clique no filtro que deseja preencher 3) Clique no botão filtrar.
-**Requisitos associados** | RF-001
+**Requisitos associados** | RF-006
 **Resultado esperado** | filme encontrado (mostrar filme)
 **Dados de entrada** | inserção de dados especifícos no fltro
 **Resultado obtido** | Sucesso
