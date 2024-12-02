@@ -28,12 +28,12 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Caso de Teste** | **CT01 - Criar conta parte 1**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço /pmv-si-2024-2-pe1-t2-t2_gp04/src/html/cadastro.html 2) Clique em criar conta <br> 3) Preencha todos os campos do formulário <br> 4) Clique no botão "registrar".
-**Requisitos associados** | RF-RF-002
+**Requisitos associados** | RF-001
 **Resultado esperado** | cadastro gerado com sucesso
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT02 - cria conta/fazer login parte 2**
+**Caso de Teste** | **CT02 - Cria conta/fazer login parte 2**
  :--------------: | ------------
 **Procedimento**  | 1) coloque o email  e a senha cadastrada  2) Clique em "lembrar sempre" , caso desejar permanecer conectado 3) clique em entrar.
 **Requisitos associados** | RF-002
@@ -108,12 +108,12 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-002 - O usuário deve poder criar um perfil para uso da plataforma, com login e senha|
 |Link do vídeo do teste realizado: | docs/vídeos/2024-12-01 17-04-04.mkv/ docs/vídeos/2024-12-01 17-04-44.mkv         | 
 
-|*Caso de Teste*                                 |*CT03 - filtrar filmes                                              |
+|*Caso de Teste*                                 |*CT03 - Filtrar filmes                                              |
 |---|---|
 |Requisito Associado | RF-003	O usuário deve ser capaz de realizar pesquisas por filtros, como pesquisa por gênero e classisficação indicativa|
 |Link do vídeo do teste realizado: |docs/vídeos/2024-12-01 17-09-10.mkv                                               | 
 
-|*Caso de Teste*                                 |*CT04 - acessar ingressos                                           |
+|*Caso de Teste*                                 |*CT04 - Acessar ingressos                                           |
 |---|---|  
 |Requisito Associado | RF-004	O usuário deve ter acesso ao(s) ingresso(s) comprado(s)                                 |
 |Link do vídeo do teste realizado: | Aplicação não implementada                                                       | 
