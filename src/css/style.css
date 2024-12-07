@@ -145,3 +145,19 @@ a {
 #shopping-cart-total {
   margin-top: 40px;
 }
+
+.session-container {
+  margin-top: 50px;
+  margin-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  border: 1px solid #444444;
+  height: 50vh;
+}
+
+.center-pills {
+  display: flex;
+  justify-content: center;
+}
