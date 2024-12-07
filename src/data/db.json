@@ -1,9 +1,9 @@
 {
   "items_in_cart": [
-    
+
   ],
   "login_credentials": [
-
+    
   ],
   "films": [
     {
@@ -77,6 +77,54 @@
       "urlImagem": "TheConjuringLastRites.webp",
       "horario": "21:40",
       "id": "a96b"
+    },
+    {
+      "titulo": "Coringa - Delírio a Dois",
+      "genero": "Ação",
+      "classificacaoIndicativa": 16,
+      "notaImdb": 6.5,
+      "cinema": "Cinemark Rio de Janeiro",
+      "paisDeOrigem": "Estados Unidos",
+      "duracao": 121,
+      "urlImagem": "coringadelirioado.webp",
+      "horario": "21:40",
+      "id": "95pf"
+    },
+    {
+      "titulo": "Transformers: O Início",
+      "genero": "Ação",
+      "classificacaoIndicativa": 10,
+      "notaImdb": 6,
+      "cinema": "Cinemark Rio de Janeiro",
+      "paisDeOrigem": "Estados Unidos",
+      "duracao": 105,
+      "urlImagem": "transformers.jpeg",
+      "horario": "21:40",
+      "id": "tf23"
+    },
+    {
+      "titulo": "A Forja",
+      "genero": "Eventos",
+      "classificacaoIndicativa": 0,
+      "notaImdb": 6.1,
+      "cinema": "Cinemark Rio de Janeiro",
+      "paisDeOrigem": "Estados Unidos",
+      "duracao": 65,
+      "urlImagem": "A_Forja.webp",
+      "horario": "21:40",
+      "id": "af53"
+    },
+    {
+      "titulo": "Tears For Fears Live",
+      "genero": "Eventos",
+      "classificacaoIndicativa": 12,
+      "notaImdb": 6.5,
+      "cinema": "Cinemark Rio de Janeiro",
+      "paisDeOrigem": "Estados Unidos",
+      "duracao": 120,
+      "urlImagem": "tearsforfears.webp",
+      "horario": "21:40",
+      "id": "tff2"
     }
   ]
 }

@@ -81,14 +81,7 @@ p {
     color: #343a40;
 }
 
-.horario-selecionado {    
-        background-color: rgba(1, 1, 41, 0.493);;
-        color: #fff;
-
+.horario.selecionado {    
+    background-color: rgb(13, 110, 253);
+    color: #fff;
 }
-
-
-
-
-
-
