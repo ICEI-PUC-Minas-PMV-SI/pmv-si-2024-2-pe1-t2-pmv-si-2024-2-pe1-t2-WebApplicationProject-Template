@@ -3,12 +3,8 @@
     
   ],
   "login_credentials": [
-    {
-      "id": "1",
-      "username": "testlogin",
-      "password": "test1234"
-    }
-  ], 
+
+  ],
   "films": [
     {
       "titulo": "Borderlands O Destino do Universo Está em Jogo",
@@ -18,69 +14,69 @@
       "cinema": "Cinemark São Paulo",
       "paisDeOrigem": "Brasil",
       "duracao": 120,
-      "urlImagem": "../img/menudefilmesimg/b.webp",
-      "horario": "18:50"
+      "urlImagem": "b.webp",
+      "horario": "18:50",
+      "id": "7e54"
     },
-    
     {
-  "titulo": "Alien Romulus",
-  "genero": "Terror",
-  "classificacaoIndicativa": 18,
-  "notaImdb": 6.5,
-  "cinema": "Kinoplex Rio de Janeiro",
-  "paisDeOrigem": "Estados Unidos",
-  "duracao": 95,
-  "urlImagem": "../img/menudefilmesimg/AlienRomulus.webp",
-      "horario": "19:50"
-
-},
- 
-{
-  "titulo": "Hachiko Para Sempre",
-  "genero": "Drama",
-  "classificacaoIndicativa": 12,
-  "notaImdb": 8.2,
-  "cinema": "Cinemark Brasília",
-  "paisDeOrigem": "Canadá",
-  "duracao": 140,
-  "urlImagem": "../img/menudefilmesimg/HachikoParaSempre.webp",
-  "horario": "19:40"
-},
-
-{
-  "titulo": "Night Has Fallen",
-  "genero": "Suspense",
-  "classificacaoIndicativa": 16,
-  "notaImdb": 7.0,
-  "cinema": "UCI Cinemas Porto Alegre",
-  "paisDeOrigem": "Reino Unido",
-  "duracao": 110,
-  "urlImagem": "../img/menudefilmesimg/NightHasFallen.webp",
-  "horario": "20:40"
-},
-
-{
-  "titulo": "Cold Storage",
-  "genero": "Ação",
-  "classificacaoIndicativa": 14,
-  "notaImdb": 6.8,
-  "cinema": "Cinemark São Paulo",
-  "paisDeOrigem": "Estados Unidos",
-  "duracao": 125,
-  "urlImagem": "../img/menudefilmesimg/ColdStorage.webp",
-  "horario": "16:40"
-},
-
-{
-  "titulo": "The Conjuring  Last Rites",
-  "genero": "Mistério",
-  "classificacaoIndicativa": 10,
-  "notaImdb": 7.5,
-  "cinema": "Cinemark Rio de Janeiro",
-  "paisDeOrigem": "França",
-  "duracao": 100,
-  "urlImagem": "../img/menudefilmesimg/TheConjuringLastRites.webp",
-  "horario": "21:40"
-}
+      "titulo": "Alien Romulus",
+      "genero": "Terror",
+      "classificacaoIndicativa": 18,
+      "notaImdb": 6.5,
+      "cinema": "Kinoplex Rio de Janeiro",
+      "paisDeOrigem": "Estados Unidos",
+      "duracao": 95,
+      "urlImagem": "AlienRomulus.webp",
+      "horario": "19:50",
+      "id": "8922"
+    },
+    {
+      "titulo": "Hachiko Para Sempre",
+      "genero": "Drama",
+      "classificacaoIndicativa": 12,
+      "notaImdb": 8.2,
+      "cinema": "Cinemark Brasília",
+      "paisDeOrigem": "Canadá",
+      "duracao": 140,
+      "urlImagem": "HachikoParaSempre.webp",
+      "horario": "19:40",
+      "id": "a928"
+    },
+    {
+      "titulo": "Night Has Fallen",
+      "genero": "Suspense",
+      "classificacaoIndicativa": 16,
+      "notaImdb": 7,
+      "cinema": "UCI Cinemas Porto Alegre",
+      "paisDeOrigem": "Reino Unido",
+      "duracao": 110,
+      "urlImagem": "NightHasFallen.webp",
+      "horario": "20:40",
+      "id": "7a30"
+    },
+    {
+      "titulo": "Cold Storage",
+      "genero": "Ação",
+      "classificacaoIndicativa": 14,
+      "notaImdb": 6.8,
+      "cinema": "Cinemark São Paulo",
+      "paisDeOrigem": "Estados Unidos",
+      "duracao": 125,
+      "urlImagem": "ColdStorage.webp",
+      "horario": "16:40",
+      "id": "58ea"
+    },
+    {
+      "titulo": "The Conjuring  Last Rites",
+      "genero": "Mistério",
+      "classificacaoIndicativa": 10,
+      "notaImdb": 7.5,
+      "cinema": "Cinemark Rio de Janeiro",
+      "paisDeOrigem": "França",
+      "duracao": 100,
+      "urlImagem": "TheConjuringLastRites.webp",
+      "horario": "21:40",
+      "id": "a96b"
+    }
   ]
 }

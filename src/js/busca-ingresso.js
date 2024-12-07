@@ -1,12 +1,17 @@
+import images from '../img/menudefilmesimg/*'
+
 const loginButtonfilter = document.getElementById("buttonfilter");
 
-async function buildDivMovies(films,containerDeFilmes){
-  films.forEach(filme => {
+async function buildDivMovies(films, containerDeFilmes) {
+  console.log("Films array:", films);
+  console.log("Images Array:", images);
+  films.forEach((filme, index) => {
+    console.log(`Processing film at index ${index}:`, filme);
     const filmsDiv = document.createElement("div");
     filmsDiv.className = "card-search";
     filmsDiv.innerHTML = `
     <div class="movie-image-search">
-      <img src=${filme.urlImagem} />
+      <img src="${images[filme.urlImagem]}" alt="${filme.titulo}" />
     </div>
     <div class="movies-description-search">
       <div>
@@ -18,10 +23,11 @@ async function buildDivMovies(films,containerDeFilmes){
       <div>
         <h6>${filme.horario}</h6>
       </div>
-    </div>`
+    </div>`;
     containerDeFilmes.appendChild(filmsDiv);
-});
- }
+  });
+}
+
 
 loginButtonfilter.addEventListener("click",async ()=>{
 // atribuindo valor do filtro as variáveis
