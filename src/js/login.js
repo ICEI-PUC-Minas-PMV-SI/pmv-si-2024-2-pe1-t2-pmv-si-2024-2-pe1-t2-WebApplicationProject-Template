@@ -40,6 +40,7 @@ async function checkIfLoginExists() {
 
     if (foundLogin && foundLogin.password === inputCredential.password) {
         alert(`Olá ${login}! Você foi logado com sucesso!`);
+        window.location.replace("index.html");
     } else {
         alert("Usuário ou Senha Incorretos. Verifique os dados informados.");
     }
