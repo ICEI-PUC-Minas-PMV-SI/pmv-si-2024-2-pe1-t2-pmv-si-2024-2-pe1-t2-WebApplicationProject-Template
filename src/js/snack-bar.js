@@ -19,6 +19,7 @@ async function addItemToCart(newItem) {
         } else {
           await axios.post("http://localhost:3000/items_in_cart", newItem);
         }
+        alert(`${newItem.name} agora está no seu carrinho!`)
     } catch (error) {
       console.log("error", error);
     }
