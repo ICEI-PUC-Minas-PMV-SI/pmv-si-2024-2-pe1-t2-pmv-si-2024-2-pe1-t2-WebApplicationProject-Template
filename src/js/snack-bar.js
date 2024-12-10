@@ -28,6 +28,7 @@ async function addItemToCart(newItem) {
 async function addMovieToCart() {
   try {
       const horario_filme = document.getElementsByClassName('selecionado');
+      const dia_filme = document.getElementsByClassName('nav-link active');
       
       if (horario_filme.length > 1) {
           alert("Por favor, selecione apenas um horário");
@@ -50,9 +51,10 @@ async function addMovieToCart() {
       }
 
       const horario = horario_filme[0].textContent || horario_filme[0].value || "Horário desconhecido";
+      const dia = dia_filme[0].textContent || dia_filme[0].value || "Dia Desconhecido";
 
       const ingresso = {
-          name: `${filme.titulo} - ${horario}`,
+          name: `${filme.titulo} - ${dia} - ${horario}`,
           quantity: 1,
           price: 31.99
       };
