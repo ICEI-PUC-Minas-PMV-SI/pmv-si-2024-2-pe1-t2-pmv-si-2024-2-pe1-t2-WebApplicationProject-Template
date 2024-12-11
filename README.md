@@ -25,7 +25,7 @@ O objetivo deste projeto é revolucionar a experiência de ir ao cinema por meio
 
 ## Orientador
 
-* Nesley Jesus
+* Hayala Nepomuceno Curto
 
 # Planejamento
 
