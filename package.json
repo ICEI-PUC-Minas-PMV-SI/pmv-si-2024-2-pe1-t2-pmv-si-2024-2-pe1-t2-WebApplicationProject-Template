@@ -1,0 +1,30 @@
+{
+  "name": "pmv-si-2024-2-pe1-t2-t2_gp04",
+  "version": "1.0.0",
+  "description": "[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=15690064&assignment_repo_type=AssignmentRepo) # TicketWave",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "parcel src/html/index.html",
+    "dev:json": "json-server src/data/db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/resolver-glob": "^2.13.2",
+    "assert": "^2.1.0",
+    "buffer": "^6.0.3",
+    "console-browserify": "^1.2.0",
+    "parcel": "^2.13.2",
+    "process": "^0.11.10",
+    "util": "^0.12.5"
+  },
+  "dependencies": {
+    "axios": "^1.7.8",
+    "json-server": "^1.0.0-beta.3",
+    "pmv-si-2024-2-pe1-t2-t2_gp04": "file:"
+  }
+}

@@ -1,36 +1,52 @@
 # Template padrão do site
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+O visual do app é inspirado nos modelos mais minimalistas, tentando manter o mínimo de informação necessária para o usuário, de forma a tornar mais simples, confortável e rápido o uso da ferramenta.
 
-Explique as guias de estilo utilizadas no seu projeto.
 
 ## Design
 
-Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
+Toda a navegação é realizada por meio de um header que se mantém o mesmo dentro de todas as páginas do app. Este header contém:
 
+1. Logo do site à esquerda
+2. Menu "Em Cartaz", da página inicial com as sugestões de filmes
+3. Menu "Encontre seu Ingresso", para realizar uma pesquisa avançada de ingressos
+4. Menu "Lanches", para compra de pipoca e outros alimentos
+5. Lupa para pesquisa de filmes, que se abre com o "hover" do mouse
+6. Botões de Login/Cadastre-se
+
+Também estará sempre presente na página o footer com:
+
+1. Informações de Contato para atendimento
+2. Redes Sociais do TicketWave
+3. Email para contato
+4. Informações de Copyright
 
 ## Cores
 
-Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
+1. Preto de Fundo: #1C1C1C - Cor dominante e padrão para uso de backgrounds em sites escuros
+2. Amarelo: #F2A922 - Destaques e botões
+3. Red: #F24452 - Alertas e outros fatores para chamar a atenção
+4. Orange: #F25E3D - Destaques secundários.
+5. Roxo: #311F73 - Pequenos botões, caixas e outros elementos da interface, com um menor destaque. 
+6. Azul: #36C8D9 - Links, estados ativos, ou para contraste com cores mais quentes.
+7. Cinza: #AAA9A8 - Corpo de texto
 
+![AdobeColor-My Color Theme (1)](https://github.com/user-attachments/assets/0cdbd058-d25e-440b-b4e0-68213ad7a927)
 
 ## Tipografia
 
-Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
+* Titulo de Página: Roboto, uppercase
+* Título de Seção: Oswald
+* Rótulo de componentes: Oswald
+* Corpo de Texto: Work Sans
 
 
 ## Iconografia
 
-Defina os ícones que serão utilizados e suas respectivas funções.
+* Lupa: Usado para indicar a pesquisa no header
 
-Apresente os estilos CSS criados para cada um dos elementos apresentados.
-Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
+<img width="120" alt="image" src="https://github.com/user-attachments/assets/492499a4-9b6b-452d-ac76-3873f54c4cf9">
 
+* Ícone de Perfil: Usado para acessar a página de perfil
 
-> **Links Úteis**:
->
-> -  [Como criar um guia de estilo de design da Web](https://edrodrigues.com.br/blog/como-criar-um-guia-de-estilo-de-design-da-web/#)
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+<img width="120" alt="image" src="https://github.com/user-attachments/assets/ae9e81fd-2ee5-4438-ba0c-a1490c8df48f">

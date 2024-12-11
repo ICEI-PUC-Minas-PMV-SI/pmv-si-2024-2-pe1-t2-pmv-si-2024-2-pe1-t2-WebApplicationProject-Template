@@ -1,0 +1,84 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.container1 {
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.tab-content {
+  background-color: #1e1e1e;
+  border-radius: 0.5rem;
+  padding: 20px;
+}
+
+.form-outline {
+  margin-bottom: 20px;
+}
+
+.form-control::placeholder {
+  color: #b0b0b0;
+}
+
+.form-control:focus {
+  border-color: yellow;
+  box-shadow: 0 0 5px rgba(255, 255, 0, 0.7);
+}
+
+.btn-primary {
+  background-color: rgba(242, 169, 34, 0.5);
+  border-color: rgba(255, 255, 0, 0.7);
+}
+
+.btn-primary:hover {
+  background-color: rgba(242, 169, 34, 1);
+  border-color: rgba(255, 255, 0, 0.7);
+  color: black;
+}
+
+label {
+  color: rgba(242, 169, 34, 1);
+}
+
+#tab-login {
+  background-color: rgba(242, 169, 34, 0.5);
+  border-color: rgba(255, 255, 0, 0.7);
+  color: white;
+}
+
+#tab-login:hover {
+  background-color: rgba(242, 169, 34, 1);
+  border-color: rgba(255, 255, 0, 0.7);
+  color: black;
+}
+
+.form-check-label {
+  color: #b0b0b0;
+  transition: color 0.3s;
+}
+
+.form-check-input:checked+.form-check-label {
+  color: rgba(242, 169, 34, 1);
+}
+
+.form-check-label:hover {
+  color: rgba(242, 169, 34, 1);
+}
+
+.container1 {
+  padding: 50px;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 500px;
+  /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); */
+}
+
+h2 {
+  color: rgba(242, 169, 34, 1);
+}

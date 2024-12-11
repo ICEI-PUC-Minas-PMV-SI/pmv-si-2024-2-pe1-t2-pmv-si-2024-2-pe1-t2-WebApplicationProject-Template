@@ -1,32 +1,46 @@
 
 # Projeto de Interface
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+ A página inicial do app exibe as principais opções de filmes em cartaz, junto aos detalhes de cada filme, como classificação indicativa, duração e gênero do filme (RF-001).
+ 
+ A interface também conta com um header, que permite ao usuário: 
+ 
+ 1. Buscar ingressos para filmes, possivelmente com filtros específicos (RF-003). 
+ 2. Acessar um perfil, com login e senha (RF-002).
+ 3. Acessar os ingressos comprados (RF-004).
+ 4. Acessar a área de compra de snacks (RF-006).
 
 ## User Flow
 
-![Exemplo de UserFlow](img/userflow.jpg)
+![UserFlow](https://github.com/user-attachments/assets/71159635-c535-4759-8851-b171d418b2df)
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
+### Compra de filmes da Home Page
 
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+![UserFlow2](https://github.com/user-attachments/assets/abd1d442-91b8-4bad-9f4c-050b32f23031)<br>
 
+### Busca de filmes
+
+![UserFlow3](https://github.com/user-attachments/assets/33ec3c15-91d7-408f-a987-c0861b553f6e)<br>
+
+### Compra de pipoca antecipadamente
+
+![UserFlow1](https://github.com/user-attachments/assets/c8251433-07a6-4652-8864-52518d80b081)<br>
 
 ## Wireframes
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface e é fundamental sempre relacionar cada wireframe com o(s) requisito(s) que ele atende.
+### Home Page
+![WireFrame-Home Page drawio](https://github.com/user-attachments/assets/e935229a-fc54-4558-8f26-1de9b700f4cc)<br>
+### Busca Ingresso
+![WireFrame-Encontra seu Ingresso drawio](https://github.com/user-attachments/assets/bf0443a6-b7bf-4dae-9880-cd3256c72b4d)<br>
+### Login
+![WireFrame-Login drawio](https://github.com/user-attachments/assets/2e46470d-c874-4a75-b10a-7d4cd3a7245f)<br>
+### Cadastro
+![WireFrame-Cadastro drawio](https://github.com/user-attachments/assets/c07f842f-4523-4670-af92-62001c2ffca8)<br>
+### Lanches
+![WireFrame-Lanches drawio](https://github.com/user-attachments/assets/aa225615-0f16-4c1d-93aa-41aa9f875c9b)<br>
 
-### Exemplo
-
-A tela inicial apresenta um menu lateral com as principais seções do portal, enquanto a navigation bar, ao topo, apresenta informações de envio de imagens ou navegação pela galeria de fotos. A área central apresenta a galeria de fotos na forma de uma grade. Nesta tela, são apresentados os seguintes requisitos
-
-![Exemplo de Wireframe](img/wireframe-example.png)
-
+### Design
+![Wireframe](https://github.com/user-attachments/assets/ca9fcd7c-f90c-41e9-b128-dbe30c1fc162)
  
 > **Links Úteis**:
 > - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)

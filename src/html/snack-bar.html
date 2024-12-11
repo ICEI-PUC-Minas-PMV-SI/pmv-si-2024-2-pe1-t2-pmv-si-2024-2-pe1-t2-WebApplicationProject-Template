@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TicketWave</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+<body class="bg-dark text-light">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">TicketWave</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="busca-ingresso.html">Encontrar Um Filme</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="snack-bar.html">Snack Bar</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a href="shopping-cart.html" class="nav-link">Carrinho</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="login.html">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container my-5">
+    <div class="row my-5">
+      <div class="col-md-3">
+        <div class="card snack-card">
+          <img class="card-img-top snack-img"
+            src="../img/popcorn.avif"
+            alt="Popcorn Image">
+          <div class="card-body">
+            <h5 class="card-title">Pipoca</h5>
+            <p class="card-text">R$ 24.99</p>
+            <a href="#" class="btn btn-secondary" onclick="addItemToCart({id: '1', name: 'Pipoca', quantity: 1, price:24.99}); event.preventDefault();">Adicionar ao Carrinho</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card snack-card">
+          <img class="card-img-top snack-img"
+            src="../img/sweet_popcorn.avif"
+            alt="Sweet Popcorn Image">
+          <div class="card-body">
+            <h5 class="card-title">Pipoca Doce</h5>
+            <p class="card-text">R$ 26.99</p>
+            <a href="#" class="btn btn-secondary" onclick="addItemToCart({id: '2', name: 'Pipoca Doce', quantity: 1, price:26.99}); event.preventDefault();">Adicionar ao Carrinho</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card snack-card">
+          <img class="card-img-top snack-img"
+            src="../img/hotdog.avif"
+            alt="Hotdog Image">
+          <div class="card-body">
+            <h5 class="card-title">Cachorro Quente</h5>
+            <p class="card-text">R$ 31.99</p>
+            <a href="#" class="btn btn-secondary" onclick="addItemToCart({id: '3', name: 'Cachorro Quente', quantity: 1, price:31.99}); event.preventDefault();">Adicionar ao Carrinho</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card snack-card">
+          <img class="card-img-top snack-img"
+            src="../img/nachos.avif"
+            alt="Nachos Image">
+          <div class="card-body">
+            <h5 class="card-title">Nachos</h5>
+            <p class="card-text">R$ 23.99</p>
+            <a href="#" class="btn btn-secondary" onclick="addItemToCart({id: '4', name: 'Nachos', quantity: 1, price:23.99}); event.preventDefault();">Adicionar ao Carrinho</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row my-5">
+      <div class="col-md-3">
+        <div class="card snack-card">
+          <img class="card-img-top snack-img" src="../img/soda.jpg" alt="Soda Image">
+          <div class="card-body">
+            <h5 class="card-title">Refrigerante</h5>
+            <p class="card-text">R$ 6.99</p>
+            <a href="#" class="btn btn-secondary" onclick="addItemToCart({id: '5', name: 'Refrigerante', quantity: 1, price:6.99}); event.preventDefault();">Adicionar ao Carrinho</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card snack-card">
+          <img class="card-img-top snack-img" src="../img/juice.jpg" alt="Juice Image">
+          <div class="card-body">
+            <h5 class="card-title">Suco de Beterraba</h5>
+            <p class="card-text">R$ 12.99</p>
+            <a href="#" class="btn btn-secondary" onclick="addItemToCart({id: '6', name: 'Suco de Beterraba', quantity: 1, price:12.99}); event.preventDefault();">Adicionar ao Carrinho</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card snack-card">
+          <img class="card-img-top snack-img" src="../img/ice-cream.webp" alt="Card Image">
+          <div class="card-body">
+            <h5 class="card-title">Sorvete</h5>
+            <p class="card-text">R$ 10.99</p>
+            <a href="#" class="btn btn-secondary" onclick="addItemToCart({id: '7', name: 'Sorvete', quantity: 1, price:10.99}); event.preventDefault();">Adicionar ao Carrinho</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card snack-card">
+          <img class="card-img-top snack-img" src="../img/brownie.jpg" alt="Card Image">
+          <div class="card-body">
+            <h5 class="card-title">Brownie</h5>
+            <p class="card-text">R$ 9.99</p>
+            <a href="#" class="btn btn-secondary" onclick="addItemToCart({id: '8', name: 'Brownie', quantity: 1, price:9.99}); event.preventDefault();">Adicionar ao Carrinho</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer bg-dark text-light py-3">
+    <div class="container">
+      <div class="row ">
+        <div class="col-md-4">
+          <h5>Sobre o TicketWave</h5>
+          <ul class="list-unstyled">
+            <li><a class="text-light" href="#">Sobre o TicketWave</a></li>
+            <li><a class="text-light" href="#">Acessibilidade</a></li>
+            <li><a class="text-light" href="#">História do TicketWave</a></li>
+            <li><a class="text-light" href="#">Fale Conosco</a></li>
+            <li><a class="text-light" href="#">Trabalhe Conosco</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Nossas Redes:</h5>
+          <ul class="list-unstyled">
+            <li><a class="text-light" href="#">TikTok</a></li>
+            <li><a class="text-light" href="#">Instagram</a></li>
+            <li><a class="text-light" href="#">Facebook</a></li>
+            <li><a class="text-light" href="#">Pinterest</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Filmes mais populares:</h5>
+          <ul class="list-unstyled">
+            <li><a class="text-light" href="#">Os Fantasmas Ainda se Divertem: Beetlejuice</a></li>
+            <li><a class="text-light" href="#">Passagrana</a></li>
+            <li><a class="text-light" href="#">Silvio</a></li>
+            <li><a class="text-light" href="#">Não Fale o Mal</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <p>&copy; 2024 TicketWave. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+  <script type="module" src="../js/snack-bar.js"></script>
+</body>
+
+</html>

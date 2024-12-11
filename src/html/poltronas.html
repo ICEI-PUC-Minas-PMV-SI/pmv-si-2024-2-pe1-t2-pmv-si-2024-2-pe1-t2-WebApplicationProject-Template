@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TicketWave</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/menudefilmes.css">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <link rel="stylesheet" href="../css/poltronas.css">
+</head>
+
+<body class="bg-dark text-light">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">TicketWave</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="busca-ingresso.html">Encontrar Um Filme</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="snack-bar.html">Snack Bar</a>
+          </li>
+          <li class="nav-item">
+            <a href="shopping-cart.html" class="nav-link">Carrinho</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="login.html">Login</a>
+            </li>
+          </ul>
+          <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Pesquisar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div id="modal-container"></div>
+  <div class="container movie-container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+
+        <!-- Poltronas  -->
+
+        <h1>Selecione sua Poltrona</h1>
+        <h2>
+    <div class="poltronas-grid" image="cadeira">
+      <button class="poltrona" box="A01" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">A01</button>
+      <button class="poltrona" box="A02" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">A02</button>
+      <button class="poltrona" box="A03" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">A03</button>
+      <button class="poltrona" box="A04" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">A04</button>
+      <button class="poltrona" box="A05" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">A05</button>
+      <button class="poltrona" box="A06" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">A06</button>
+      <button class="poltrona" box="A07" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">A07</button>
+      <button class="poltrona" box="A08" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">A08</button>
+     
+      <img src="../img/poltronasimg/escadaria.png" alt="" height="60px" width="55px">
+      
+      <button class="poltrona" box="A09" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">A09</button>
+      <button class="poltrona" box="A10" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">A10</button>
+      <button class="poltrona" box="A11" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">A11</button>
+      <button class="poltrona" box="A12" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">A12</button>
+      <button class="poltrona" box="A13" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">A13</button>
+      <button class="poltrona" box="A14" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">A14</button>
+      <button class="poltrona" box="A15" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">A15</button>
+      <button class="poltrona" box="A16" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">A16</button>
+      <button class="poltrona" box="A17" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">A17</button>
+      <button class="poltrona" box="A18" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">A18</button>
+      <button class="poltrona" box="A19" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">A19</button>
+      <button class="poltrona" box="A20" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">A20</button>
+      <button class="poltrona" box="B01" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">B01</button>
+      <button class="poltrona" box="B02" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">B02</button>
+      <button class="poltrona" box="B03" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">B03</button>
+      
+      <img src="../img/poltronasimg/escadaria.png" alt="" height="60px" width="55px">
+      
+      <button class="poltrona" box="B04" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">B04</button>
+      <button class="poltrona" box="B05" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">B05</button>
+      <button class="poltrona" box="B06" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">B06</button>
+      <button class="poltrona" box="B07" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">B07</button>
+      <button class="poltrona" box="B08" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">B08</button>
+      <button class="poltrona" box="B09" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">B09</button>
+      <button class="poltrona" box="B10" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">B10</button>     
+      <button class="poltrona" box="B11" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">B11</button>
+      <button class="poltrona" box="B12" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">B12</button>
+      <button class="poltrona" box="B13" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">B13</button>
+      <button class="poltrona" box="B14" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">B14</button>
+      <button class="poltrona" box="B15" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">B15</button>
+      <button class="poltrona" box="B16" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">B16</button>
+      <button class="poltrona" box="B17" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">B17</button>
+      <button class="poltrona" box="B18" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">B18</button>
+      
+      <img src="../img/poltronasimg/escadaria.png" alt="" height="60px" width="55px">
+      
+      <button class="poltrona" box="B19" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">B19</button>
+      <button class="poltrona" box="B20" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">B20</button>
+      <button class="poltrona" box="C01" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">C01</button>
+      <button class="poltrona" box="C02" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">C02</button>
+      <button class="poltrona" box="C03" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">C03</button>
+      <button class="poltrona" box="C04" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">C04</button>
+      <button class="poltrona" box="C05" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">C05</button>
+      <button class="poltrona" box="C06" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">C06</button>
+      <button class="poltrona" box="C07" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">C07</button>
+      <button class="poltrona" box="C08" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">C08</button>
+      <button class="poltrona" box="C09" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">C09</button>
+      <button class="poltrona" box="C10" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">C10</button>
+      <button class="poltrona" box="C11" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">C11</button>
+      <button class="poltrona" box="C12" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">C12</button>
+      <button class="poltrona" box="C13" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">C13</button>
+      
+      <img src="../img/poltronasimg/escadaria.png" alt="" height="60px" width="55px">
+      
+      <button class="poltrona" box="C14" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">C14</button>
+      <button class="poltrona" box="C15" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">C15</button>
+      <button class="poltrona" box="C16" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">C16</button>
+      <button class="poltrona" box="C17" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">C17</button>
+      <button class="poltrona" box="C18" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">C18</button>
+      <button class="poltrona" box="C19" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">C19</button>
+      <button class="poltrona" box="C20" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">C20</button>
+      <button class="poltrona" box="D01" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">D01</button>
+      <button class="poltrona" box="D02" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">D02</button>
+      <button class="poltrona" box="D03" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">D03</button>
+      <button class="poltrona" box="D04" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">D04</button>
+      <button class="poltrona" box="D05" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">D05</button>
+      <button class="poltrona" box="D06" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">D06</button>
+      <button class="poltrona" box="D07" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">D07</button>
+      <button class="poltrona" box="D08" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">D08</button>
+      
+      <img src="../img/poltronasimg/escadaria.png" alt="" height="60px" width="55px">
+     
+      <button class="poltrona" box="D09" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">D09</button>
+      <button class="poltrona" box="D10" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">D10</button>
+      <button class="poltrona" box="D11" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">D11</button>
+      <button class="poltrona" box="D12" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">D12</button>
+      <button class="poltrona" box="D13" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">D13</button>
+      <button class="poltrona" box="D14" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">D14</button>
+      <button class="poltrona" box="D15" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">D15</button>
+      <button class="poltrona" box="D16" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">D16</button>
+      <button class="poltrona" box="D17" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">D17</button>
+      <button class="poltrona" box="D18" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">D18</button>
+      <button class="poltrona" box="D19" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">D19</button>
+      <button class="poltrona" box="D20" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">D20</button>
+      <button class="poltrona" box="E01" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">E01</button>
+      <button class="poltrona" box="E02" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">E02</button>
+      <button class="poltrona" box="E03" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">E03</button>
+      
+      <img src="../img/poltronasimg/escadaria.png" alt="" height="60px" width="55px">
+      
+      <button class="poltrona" box="E04" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">E04</button>
+      <button class="poltrona" box="E05" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">E05</button>
+      <button class="poltrona" box="E06" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">E06</button>
+      <button class="poltrona" box="E07" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">E07</button>
+      <button class="poltrona" box="E08" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">E08</button>
+      <button class="poltrona" box="E09" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">E09</button>
+      <button class="poltrona" box="E10" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">E10</button>
+      <button class="poltrona" box="E11" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">E11</button>
+      <button class="poltrona" box="E12" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">E12</button>
+      <button class="poltrona" box="E13" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">E13</button>
+      <button class="poltrona" box="E14" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">E14</button>
+      <button class="poltrona" box="E15" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">E15</button>
+      <button class="poltrona" box="E16" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">E16</button>
+      <button class="poltrona" box="E17" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">E17</button>
+      <button class="poltrona" box="E18" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">E18</button>
+     
+      <img src="../img/poltronasimg/escadaria.png" alt="" height="60px" width="55px">
+     
+      <button class="poltrona" box="E19" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">E19</button>
+      <button class="poltrona" box="E20" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">E20</button>
+      <button class="poltrona" box="F01" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">F01</button>
+      <button class="poltrona" box="F02" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">F02</button>
+      <button class="poltrona" box="F03" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">F03</button>
+      <button class="poltrona" box="F04" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">F04</button>
+      <button class="poltrona" box="F05" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">F05</button>
+      <button class="poltrona" box="F06" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">F06</button>
+      <button class="poltrona" box="F07" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">F07</button>
+      <button class="poltrona" box="F08" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">F08</button>
+      <button class="poltrona" box="F09" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">F09</button>
+      <button class="poltrona" box="F10" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">F10</button>      
+      <button class="poltrona" box="F11" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">F11</button>
+      <button class="poltrona" box="F12" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">F12</button>
+      <button class="poltrona" box="F13" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">F13</button>
+      
+      <img src="../img/poltronasimg/escadaria.png" alt="" height="60px" width="55px">
+     
+      <button class="poltrona" box="F14" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">F14</button>
+      <button class="poltrona" box="F15" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">F15</button>
+      <button class="poltrona" box="F16" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">F16</button>
+      <button class="poltrona" box="F17" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">F17</button>
+      <button class="poltrona" box="F18" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">F18</button>
+      <button class="poltrona" box="F19" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">F19</button>
+      <button class="poltrona" box="F20" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">F20</button>
+      <button class="poltrona" box="G01" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">G01</button>
+      <button class="poltrona" box="G02" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">G02</button>
+      <button class="poltrona" box="G03" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">G03</button>
+      <button class="poltrona" box="G04" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">G04</button>
+      <button class="poltrona" box="G05" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">G05</button>
+      <button class="poltrona" box="G06" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">G06</button>
+      <button class="poltrona" box="G07" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">G07</button>
+      <button class="poltrona" box="G08" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">G08</button>
+
+      <img src="../img/poltronasimg/escadaria.png" alt="" height="60px" width="55px">
+      
+      <button class="poltrona" box="G09" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">G09</button>
+      <button class="poltrona" box="G10" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">G10</button>
+      <button class="poltrona" box="G11" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">G11</button>     
+      <button class="poltrona" box="G12" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">G12</button>
+      <button class="poltrona" box="G13" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">G13</button>
+      <button class="poltrona" box="G14" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">G14</button>
+      <button class="poltrona" box="G15" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">G15</button>
+      <button class="poltrona" box="G16" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">G16</button>
+      <button class="poltrona" box="G17" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">G17</button>
+      <button class="poltrona" box="G18" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">G18</button>
+      <button class="poltrona" box="G19" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">G19</button>
+      <button class="poltrona" box="G20" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">G20</button>
+      <button class="poltrona" box="H01" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">H01</button> 
+      <button class="poltrona" box="H02" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">H02</button>
+      <button class="poltrona" box="H03" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">H03</button>
+      
+      <img src="../img/poltronasimg/escadaria.png" alt="" height="60px" width="55px">
+      
+      <button class="poltrona" box="H04" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">H04</button>
+      <button class="poltrona" box="H05" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">H05</button>
+      <button class="poltrona" box="H06" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">H06</button>
+      <button class="poltrona" box="H07" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">H07</button>
+      <button class="poltrona" box="H08" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">H08</button>
+      <button class="poltrona" box="H09" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">H09</button>
+      <button class="poltrona" box="H10" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">H10</button>
+      <button class="poltrona" box="H11" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">H11</button>
+      <button class="poltrona" box="H12" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">H12</button>
+      <button class="poltrona" box="H13" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">H13</button>
+      <button class="poltrona" box="H14" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">H14</button>
+      <button class="poltrona" box="H15" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">H15</button>
+      <button class="poltrona" box="H16" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">H16</button>
+      <button class="poltrona" box="H17" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">H17</button>
+     
+      <img src="../img/poltronasimg/escadaria.png" alt="" height="60px" width="55px">
+      
+      <button class="poltrona" box="H18" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">H18</button>
+      <button class="poltrona" box="H19" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">H19</button>
+      <button class="poltrona" box="H20" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">H20</button>
+      <button class="poltrona" box="I01" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">I01</button>
+      <button class="poltrona" box="I02" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">I02</button>
+      <button class="poltrona" box="I03" data-price="20" image="cadeira"><img src="../img/poltronasimg/poltrona.png" alt="" height="16px" width="16px">I03</button>    
+    </div>
+
+
+  <p class="tela">TELA</p>
+ 
+    <div class="arrumar">
+
+      <div class="precos">
+        
+        <table>
+          <tr>
+            <td><p>Preço: <span id="total">R$ 0.00</span></p></td>
+            <td><button id="calcular">Calcular preço</button></td>
+          </tr>
+        </table>
+    </h2>
+    <div id="mensagemContainer" style="font-weight: bold"></div>
+      <a href="../html/sessoes.html" class="back-btn">Voltar</a>
+      <a href="../html/shopping-cart.html" class="next-btn">Avançar</a>
+    </div>
+    </div>
+    </div>
+  </div>
+  </div>
+  <footer class="footer bg-dark text-light py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>Sobre o TicketWave</h5>
+          <ul class="list-unstyled">
+            <li><a class="text-light" href="#">Sobre o TicketWave</a></li>
+            <li><a class="text-light" href="#">Acessibilidade</a></li>
+            <li><a class="text-light" href="#">História do TicketWave</a></li>
+            <li><a class="text-light" href="#">Fale Conosco</a></li>
+            <li><a class="text-light" href="#">Trabalhe Conosco</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Nossas Redes:</h5>
+          <ul class="list-unstyled">
+            <li><a class="text-light" href="#">TikTok</a></li>
+            <li><a class="text-light" href="#">Instagram</a></li>
+            <li><a class="text-light" href="#">Facebook</a></li>
+            <li><a class="text-light" href="#">Pinterest</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Filmes mais populares:</h5>
+          <ul class="list-unstyled">
+            <li><a class="text-light" href="#">Os Fantasmas Ainda se Divertem: Beetlejuice</a></li>
+            <li><a class="text-light" href="#">Passagrana</a></li>
+            <li><a class="text-light" href="#">Silvio</a></li>
+            <li><a class="text-light" href="#">Não Fale o Mal</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <p>&copy; 2024 TicketWave. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+<script src="../js/poltronas.js"></script>
+
+</html>

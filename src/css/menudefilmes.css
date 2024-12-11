@@ -1,0 +1,128 @@
+/* Filmes */
+/* .news {
+    display: flex;
+    justify-content: space-between;
+    max-width: 85%;
+    min-width: 85%;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.news h3 {
+    color: #fff;
+}
+
+.scroll-btn {
+    padding: 10px;
+    background-color: #222121c4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.scroll-btn:hover {
+    background-color: #ffffff85;
+} */
+
+.movie-conteiner {
+    display: flex;
+    justify-content: space-around;
+    max-width: 85%;
+    min-width: 85%;
+    height: 500px;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.card {
+    max-width: 23%;
+    min-width: 23%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    margin: 10px;
+    border-color: #fff;
+    background-color: #222121c4;
+}
+
+.movie-image {
+    width: 100%;
+    height: 75%; 
+    margin: 2px;
+}
+
+.movie-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.movie-title {
+    width: 100%;
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+.movies-btn {
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #ffffff00;
+    font-weight: bold;
+    font-size: .80em;
+    margin: auto;
+    color: #fff;
+}
+
+.category {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.classification16 {
+    background-color: rgba(255, 0, 0, 0.466);
+    color: #fff;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.classification10 {
+    background-color: rgba(10, 174, 250, 0.521);
+    color: #fff;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.classificationL {
+    background-color: rgba(66, 252, 10, 0.466);
+    color: #fff;
+    font-weight: bold;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.classificationA12 {
+    background-color: rgba(231, 235, 17, 0.774);
+    color: #fff;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-family: helvetica;
+}
+
+p {
+    color: #fff;
+}
+
+

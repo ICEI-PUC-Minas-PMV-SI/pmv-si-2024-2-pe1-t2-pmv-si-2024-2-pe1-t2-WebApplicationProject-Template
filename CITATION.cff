@@ -8,26 +8,43 @@ message: >-
   Web da PUC Minas.
 type: software
 authors:
-  - given-names: Aluno 1
-    family-names: Nome Completo
-    email: aluno@pucminas.br
+  - given-names: Felipe
+    family-names: de Souza Bonilha
     affiliation: PUC Minas
-  - given-names: Hugo
-    name-particle: 'B '
-    family-names: de Paula
-    name-suffix: Prof.
-    email: hugo@pucminas.br
+    email: fbonilha@sga.pucminas.br
+  - given-names: Grazielle
+    family-names: Rosa Lagares
+    email: grazielle.lagares@sga.pucminas.br
     affiliation: PUC Minas
-    orcid: 'https://orcid.org/0000-0002-6193-3205'
+  - given-names: Maria Luiza
+    family-names: Brito de Paula
+    email: maria.paula1562348@sga.pucminas.br
+    affiliation: PUC Minas
+  - given-names: Rafael
+    family-names: Da Silva Lanzarini
+    email: rafael.lanzarini@sga.pucminas.br
+    affiliation: PUC Minas
+  - given-names: Rodrigo
+    family-names: Junqueira de Lima Siqueira
+    email: 1479347@sga.pucminas.br
+    affiliation: PUC Minas
+  - given-names: Vítor
+    family-names: Asafe Lima Coelho
+    email: valcoelho@sga.pucminas.br
+    affiliation: PUC Minas
 repository-code: >-
   https://github.com/ICEI-PUC-Minas-PMV-SI/WebApplicationProject-Template
 abstract: >-
-  Descrever resumidamente, em um ou dois parágrafos, o
-  projeto que foi desenvolvido.
+  O objetivo deste projeto é revolucionar a experiência de ir ao cinema por meio de um Aplicativo Web, 
+  desde a etapa de descobrir filmes e salas de cinema até o momento em que você sai da sessão. 
+  Atividades cotidianas como procurar um filme para assistir, descobrir o melhor horário e localização, 
+  e escolher assentos são feitas digitalmente e com a maior facilidade possível.
 keywords:
   - Desenvolvimento Web
   - HTML
   - CSS
   - JavaScript
   - Template
+  - Cinema
+  - Ingressos
 date-released: '2024-06-23'
